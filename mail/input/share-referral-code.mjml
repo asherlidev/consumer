@@ -1,0 +1,95 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Lato" href="https://fonts.googleapis.com/css?family=Lato:400,500,600,700,900&display=swap" />
+    <mj-style>
+      .title-big {
+        color: #091D2C;
+        font-family: Lato;
+        font-size: 32px;
+        font-weight: 900;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: 0px;
+        font-stretch: normal;
+        padding: 0px;
+      }
+      .text-big {
+        color: #091D2C;
+        font-family: Lato;
+        font-size: 24px;
+        font-weight: 600;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: 0px;
+        font-stretch: normal;
+      }
+
+      .text-medium {
+        color: #454F57;
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: 500;
+        font-style: normal;
+        line-height: 1.44;
+        letter-spacing: normal;
+        font-stretch: normal;
+      }
+      .text {
+        color: #454F57;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        line-height: 1.63;
+        letter-spacing: normal;
+        font-stretch: normal;
+      }
+
+      .mar-vert-0 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      @media (max-width:480px) {
+        .pad-mob-hor {
+         padding-left: 15px;
+         padding-right: 15px;
+        }
+
+        .pad-mob-hor-lg {
+         padding-left: 61px;
+         padding-right: 61px;
+        }
+
+        .pad-mob-ver {
+          padding-top: 65px;
+          padding-bottom: 65px;
+        }
+      }
+
+      @media (min-width:480px) {
+       .pad {
+         padding-left: 66px;
+         padding-right: 66px;
+        }
+        .pad-lg-hor-big {
+         padding-left: 129px;
+         padding-right: 129px;
+        }
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .footer {
+          max-width: 162px !important;
+      }
+      .table {
+        overflow-x: auto;
+        white-space: nowrap;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#F5F5F5" text-align="center" width="750px">
+    <mj-include path="includes/header.mjml"/>
+    <mj-include path="includes/referral-2.mjml"/>
+    <mj-include path="includes/footer.mjml"/>
+  </mj-body>
+</mjml>

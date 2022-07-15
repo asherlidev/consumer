@@ -1,0 +1,16 @@
+export { default as EventsActive } from './EventsActive.svg';
+export { default as EventsInactive } from './EventsInactive.svg';
+export { default as HomeActive } from './HomeActive.svg';
+export { default as HomeInactive } from './HomeInactive.svg';
+export { default as LoginActive } from './LoginActive.svg';
+export { default as LoginInactive } from './LoginInactive.svg';
+export { default as MoreActive } from './MoreActive.svg';
+export { default as MoreInactive } from './MoreInactive.svg';
+export { default as MyTicketsActive } from './MyTicketsActive.svg';
+export { default as MyTicketsInactive } from './MyTicketsInactive.svg';
+export { default as ProfileActive } from './ProfileActive.svg';
+export { default as ProfileInactive } from './ProfileInactive.svg';
+export { default as SearchActive } from './SearchActive.svg';
+export { default as SearchInactive } from './SearchInactive.svg';
+export { default as VenuesActive } from './VenuesActive.svg';
+export { default as VenuesInactive } from './VenuesInactive.svg';

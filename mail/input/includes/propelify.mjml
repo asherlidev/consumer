@@ -1,0 +1,27 @@
+<mj-section css-class="image" background-url="https://res.cloudinary.com/festivalpass/image/upload/v1566310014/Email/Backgrounds/tranactional-top_w1bduy.png" background-repeat="no-repeat" padding="0" background-color="#FFFFFF">
+    <mj-column padding="66px 0 0px 0">
+      <mj-image padding="0px" width="56px" src="https://res.cloudinary.com/festivalpass/image/upload/v1568034406/Email/Avatar/founding-member_wdjisn.png"></mj-image>
+    </mj-column>
+  </mj-section>
+ <mj-section background-repeat="no-repeat" padding="0" background-color="#FFFFFF">
+  <mj-column padding="0px 0 80px 0">
+    <mj-text align="center" padding="0" font-family="Sofia Black, Open Sans, sans-serif;" >
+      <h1 class="title-big mar-vert-0 pad-lg-hor-big pad-mob-hor">Thank You for signing up as a BASIC member of festivalPass via Propelify!</h1>
+    </mj-text>
+    <mj-text align="center" padding="17px 0px 0px 0px" font-family="Sofia Regular, Open Sans, sans-serif;">
+      <p class="text mar-vert-0 pad-mob-hor pad-lg-hor-big ">
+        Upgrade to <span style="font-family: Sofia Bold, Open Sans, sans-serif; font-weight: bold;"><strong>Founding Member</strong></span> status and earn 2X on referrals and your credits will never expire.
+      </p>
+    </mj-text>
+    <mj-button href="https://www.festivalpass.com/login" padding="32px 0px 0px 0px" font-family="Sofia Regular, OpOpen Sans, sans-serif;" font-size="18px" font-weight="700" font-style="normal" line-height="normal" letter-spacing="normal" font-stretch="normal" background-color="#FA2069" color="#FFFFFF" border-radius="16px" inner-padding="14px 18px 15px 18px">Login to your account
+    </mj-button>
+    <mj-text align="center" padding="17px 0px 0px 0px" font-family="Sofia Regular, Open Sans, sans-serif;">
+      <p class="text mar-vert-0 pad-mob-hor pad-lg-hor-big ">
+        You’ve also secured your  <span style="font-family: Sofia Bold, Open Sans, sans-serif; font-weight: bold;"><strong>FREE TICKET</strong></span> to the Propelify Innovation Festival on October 3rd in Hoboken, NJ.<span style="font-family: Sofia Bold, Open Sans, sans-serif;"><strong>CLICK THE CODE BELOW </strong></span> to use your festivalPass code and enjoy 80+ speakers, food, live music and more!!
+      </p>
+    </mj-text>
+    <mj-button href="https://propelify.com/gaticket19/?ccode=fp2019" padding="32px 0px 0px 0px" font-family="Sofia Regular, OpOpen Sans, sans-serif;" font-size="18px" font-weight="700" font-style="normal" line-height="normal" letter-spacing="normal" font-stretch="normal" background-color="#FA2069" color="#FFFFFF" border-radius="16px" inner-padding="14px 18px 15px 18px">CODE: FP2019
+    </mj-button>
+  </mj-column>
+</mj-section>
+

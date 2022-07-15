@@ -1,0 +1,24 @@
+<mj-section background-color="#FFFFFF" padding="0">
+  <mj-column padding="67px 0 20px 0">
+    <mj-text align="left" padding="0" font-family="Sofia Black, Open Sans, sans-serif;" >
+      <h1 class="title-big mar-vert-0 pad pad-mob-hor">Hey, Festival Owner!</h1>
+    </mj-text>
+    <mj-column>
+  </mj-section>
+  <mj-section background-repeat="no-repeat" padding="0" background-color="#FFFFFF">
+    <mj-column padding="0">
+      <mj-text align="left" padding="0" font-family="Sofia Regular, Open Sans, sans-serif;" >
+        <p class="text pad pad-mob-hor mar-vert-0">You have requested claiming of the <span style="font-family: Sofia Bold, Open Sans, sans-serif; "><strong>iHeart Radio: Music Festival Las Vegas. </strong></span>To verify your festival ownership, enter verification code on the claiming form or just press the following button.</p>
+      </mj-text>
+      <mj-divider width="80%" border-width="1px" border-style="solid" border-color="#D8D8D8" padding="24px 0"/>
+    <mj-text align="left" padding="15px 0 0px 0" font-family="Sofia Medium, Open Sans, sans-serif;"  >
+      <p class="text-medium pad pad-mob-hor mar-vert-0">Your verification code:</p>
+    </mj-text>
+     <mj-text align="left" padding="0" font-family="Sofia Medium, Open Sans, sans-serif;"  >
+      <p class="text-big pad pad-mob-hor mar-vert-0">3891 2981 2345</p>
+    </mj-text>
+     <mj-button css-class="btn-pad" align="left" padding="28px 0" href={{url}} font-family="Sofia Bold, Open Sans, sans-serif;" font-size="18px" font-weight="700" font-style="normal" line-height="normal" letter-spacing="normal" font-stretch="normal" background-color="#FA2069" color="#FFFFFF" border-radius="16px" inner-padding="17px">
+      Verify me now
+    </mj-button>
+  </mj-column>
+</mj-section>

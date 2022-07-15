@@ -1,0 +1,434 @@
+/*
+  Theme Name: Alstar
+  Theme URL: https://bootstrapmade.com/alstar-free-parallax-bootstrap-template/
+  Author: BootstrapMade.com
+  Author URL: https://bootstrapmade.com
+*/
+
+/* ================================
+Imports
+================================= */
+@import '../../node_modules/react-modal-video/css/modal-video.min.css';
+@import '../../node_modules/react-image-lightbox/style.css';
+@import '../../node_modules/slick-carousel/slick/slick-theme.css';
+@import '../../node_modules/slick-carousel/slick/slick.css';
+@import '../../node_modules/react-datepicker/dist/react-datepicker.css';
+@import '../../node_modules/react-phone-number-input/style.css';
+@import '../../node_modules/react-date-range/dist/styles.css';
+@import '../../node_modules/react-date-range/dist/theme/default.css';
+@import 'bootstrap.min.css';
+@import 'overwrite.css';
+@import 'animate.css';
+@import 'festival-pass.css';
+
+/* ===========================
+feComponentTransfer
+=========================== */
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: local('Sofia Pro'), url('../fonts/sofiapro-light.otf');
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: local('Sofia Pro'), url('../fonts/Sofia-Pro-Regular-Az.otf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: local('Sofia Pro'), url('../fonts/Sofia-Pro-Bold-Az.otf');
+  font-weight: bold;
+}
+
+/* ================================
+General
+================================= */
+
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 28px;
+}
+h4 {
+  font-size: 24px;
+}
+h5 {
+  font-size: 20px;
+}
+h6 {
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  color: #3a3a3a;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-bottom: 10px;
+  padding: 6px 12px;
+  border: 1px solid transparent;
+  vertical-align: middle;
+  text-align: center;
+  white-space: nowrap;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.428571429;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+button.navbar-toggle {
+  background: #2b2b2b;
+  border: none;
+  color: #fff;
+}
+
+.btn-theme,
+.btn-theme:hover,
+.btn-theme:focus {
+  color: #fff;
+}
+.btn-theme:hover {
+  background: transparent !important;
+  border-color: #999;
+  color: #999;
+}
+
+/* ================================
+margin, padding
+================================= */
+
+/* Remove after replacing it in ContactSection and InvitePage */
+.mar-top0 {
+  margin-top: 0;
+}
+.mar-top10 {
+  margin-top: 10px;
+}
+.mar-top20 {
+  margin-top: 20px;
+}
+.mar-top30 {
+  margin-top: 30px;
+}
+.mar-top40 {
+  margin-top: 40px;
+}
+
+/* Utility styles */
+/* Remove after replacing it in InvitePage */
+.text-center {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  top: 120%;
+  right: 15px;
+  border-radius: 12px;
+  border: 1px solid transparent;
+}
+
+/* ================================
+Home sections
+================================= */
+
+/* --- heading --- */
+.section-heading {
+  margin-bottom: 50px;
+}
+
+.section-heading h2 {
+  font-size: 38px;
+  text-transform: uppercase;
+}
+
+.section-heading .heading-line {
+  margin: 0 auto;
+  display: block;
+  height: 1px;
+  width: 80px;
+  background: #333;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* ================================
+Intro
+================================= */
+
+.btn-get-started {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 3px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  background: #fa2069;
+  border: 2px solid #fa2069;
+  border-radius: 16px;
+}
+
+.founding-member-form {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.founding-member-form > label {
+  margin: 0px;
+  color: #091d2c;
+  font-weight: 500;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.founding-member-form > input {
+  margin: 10px 0 10px 0 !important;
+  height: 50px !important;
+  border-radius: 8px !important;
+  background-color: #f2f2f2;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100% !important;
+  padding: 20px;
+  border: none;
+}
+
+.founding-member-form-stripe {
+  margin: 10px 0 10px 0 !important;
+  height: 50px !important;
+  border-radius: 8px !important;
+  background-color: #f2f2f2;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100% !important;
+  padding: 20px;
+}
+
+.onboarding-form {
+  margin: 10px;
+  height: 50px;
+  border-radius: 8px !important;
+  border: solid 1px #dbdbdb;
+}
+
+/*
+Payment Form
+*/
+
+label {
+  height: 35px;
+  position: relative;
+  color: #8798ab;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+label > span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-weight: 300;
+  line-height: 32px;
+  color: #8798ab;
+  border-bottom: 1px solid #586a82;
+  transition: border-bottom-color 200ms ease-in-out;
+  cursor: text;
+  pointer-events: none;
+}
+
+label > span span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 0% 50%;
+  transition: transform 200ms ease-in-out;
+  cursor: text;
+}
+
+label .field.is-focused + span span,
+label .field:not(.is-empty) + span span {
+  transform: scale(0.68) translateY(-36px);
+  cursor: default;
+}
+
+label .field.is-focused + span {
+  border-bottom-color: #34d08c;
+}
+
+.field {
+  background: transparent;
+  font-weight: 300;
+  border: 0;
+  color: white;
+  outline: none;
+  cursor: text;
+  display: block;
+  width: 100%;
+  line-height: 32px;
+  padding-bottom: 3px;
+  transition: opacity 200ms ease-in-out;
+}
+
+.field::-webkit-input-placeholder {
+  color: #8898aa;
+}
+.field::-moz-placeholder {
+  color: #8898aa;
+}
+
+/* IE doesn't show placeholders when empty+focused */
+.field:-ms-input-placeholder {
+  color: #424770;
+}
+
+.field.is-empty:not(.is-focused) {
+  opacity: 0;
+}
+
+/* ================================
+Contact
+================================= */
+
+.validation {
+  color: red;
+  display: none;
+  margin: 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+#sendmessage {
+  color: green;
+  border: 1px solid green;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+#sendmessage.show,
+#errormessage.show,
+.show {
+  display: block;
+}
+
+/* ================================
+Bottom widget
+================================= */
+#bottom-widget {
+  overflow: hidden;
+}
+
+.social-share-btn > img {
+  width: 20px;
+  height: 20px;
+}
+
+/* ================================
+more media queries
+================================= */
+
+@media (min-width: 769px) {
+  .navbar-nav {
+    text-align: left;
+
+    float: right !important;
+  }
+}
+
+@media (max-width: 769px) {
+  header {
+    padding-bottom: 50px;
+    min-height: 1000px;
+    height: 100%;
+  }
+
+  .navbar-nav {
+    text-align: left;
+
+    float: left !important;
+
+    padding: 20px 0 0 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  header .carousel-iphone {
+    width: 280px;
+  }
+
+  header .carousel {
+    padding-top: 85px;
+    width: 245px;
+  }
+
+  header {
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+
+  header h1 {
+    font-size: 70px;
+  }
+}
+
+/* Override Bootstrap */
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border: none;
+  box-shadow: none;
+}

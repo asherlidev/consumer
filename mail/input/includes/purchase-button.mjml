@@ -1,0 +1,6 @@
+<mj-section background-color="#FFFFFF">
+  <mj-column align="center">
+    <mj-button padding="0px" font-family="Lato" font-size="18px" font-weight="700" font-style="normal" line-height="normal" letter-spacing="normal" font-stretch="normal" background-color="#FA2069" color="#FFFFFF" border-radius="16px" inner-padding="14px 18px 15px 18px">Return to festivalPass. com
+    </mj-button>
+  </mj-column>
+<mj-section>

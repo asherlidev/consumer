@@ -1,0 +1,19 @@
+<mj-section css-class="image" background-url="https://res.cloudinary.com/festivalpass/image/upload/v1566310014/Email/Backgrounds/tranactional-top_w1bduy.png" background-repeat="no-repeat" padding="0">
+  <mj-column padding="80px 0 0px 0">
+     <mj-image padding="0px" width="40px" src="https://res.cloudinary.com/festivalpass/image/upload/v1566412008/Email/Icons/ico-money_vb3em1.png"></mj-image>
+  </mj-column>
+</mj-section>
+ <mj-section background-repeat="no-repeat" padding="0" background-color="#FFFFFF">
+  <mj-column padding="0px 0 80px 0">
+    <mj-text align="center" padding="27px 0 0 0" font-family="Sofia Black, Open Sans, sans-serif;" >
+      <h1 class="title-big mar-vert-0 pad-lg-hor-big">Hi, {{name}}!</h1>
+    </mj-text>
+    <mj-text align="center" padding="17px 0px 0px 0px" font-family="Sofia Regular, Open Sans, sans-serif;">
+      <p class="text mar-vert-0 pad-mob-hor pad-lg-hor-big ">
+        You've just added <span style="font-family: Sofia Bold, Open Sans, sans-serif; font-weight: bold;">89 credits</span> to your festivalPass account. Now, it's time to find your favorite festivals!</p>
+    </mj-text>
+    <mj-button href={{url}} padding="32px 0px 0px 0px" font-family="Sofia Bold, Open Sans, sans-serif;" font-size="18px" font-weight="700" font-style="normal" line-height="normal" letter-spacing="normal" font-stretch="normal" background-color="#FA2069" color="#FFFFFF" border-radius="16px" inner-padding="17px">
+    Find Festivals
+    </mj-button>
+  </mj-column>
+</mj-section>

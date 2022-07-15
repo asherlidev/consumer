@@ -1,0 +1,64 @@
+<mjml>
+  <mj-head>
+    <mj-font
+      name="Open Sans"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,700i,800,800i&display=swap"
+    />
+    <mj-style>
+      @font-face { font-family: "Sofia Regular";
+      src:url("https://res.cloudinary.com/festivalpass/raw/upload/v1567984510/Fonts/Sofia%20Pro%20Regular/941243bb-e692-46f8-91b9-6e621e5c1ff8_i5ntnj.eot?#iefix");
+      src:url("https://res.cloudinary.com/festivalpass/raw/upload/v1567984510/Fonts/Sofia%20Pro%20Regular/941243bb-e692-46f8-91b9-6e621e5c1ff8_i5ntnj.eot?#iefix")
+      format("eot"),url("https://res.cloudinary.com/festivalpass/raw/upload/v1567984510/Fonts/Sofia%20Pro%20Regular/8b31e0d7-5f53-45c2-b318-064f0b532543_lhcclz.woff2")
+      format("woff2"),url("https://res.cloudinary.com/festivalpass/raw/upload/v1567984510/Fonts/Sofia%20Pro%20Regular/476fe015-ab32-40a2-8fed-0a5af9a3bba4_hxhz1t.woff")
+      format("woff"),url("https://res.cloudinary.com/festivalpass/raw/upload/v1567984510/Fonts/Sofia%20Pro%20Regular/d8bcfa37-4f93-49cf-8dea-c29e894af58e_ilbd2j.ttf")
+      format("truetype"); } @font-face{ font-family: "Sofia Medium";
+      src:url("https://res.cloudinary.com/festivalpass/raw/upload/v1567984492/Fonts/Sofia%20Pro%20Medium/27070da8-f8ed-4002-8324-4f0dd80f8fa4_vvj0te.eot?#iefix");
+      src:url("https://res.cloudinary.com/festivalpass/raw/upload/v1567984492/Fonts/Sofia%20Pro%20Medium/27070da8-f8ed-4002-8324-4f0dd80f8fa4_vvj0te.eot?#iefix")
+      format("eot"),url("https://res.cloudinary.com/festivalpass/raw/upload/v1567984492/Fonts/Sofia%20Pro%20Medium/fe0b48dd-7bb4-4787-913d-eaf613373f35_phc3m4.woff2")
+      format("woff2"),url("https://res.cloudinary.com/festivalpass/raw/upload/v1567984492/Fonts/Sofia%20Pro%20Medium/d493595c-97d2-4edc-bc9a-c09ad13b4913_enm3y7.woff")
+      format("woff"),url("https://res.cloudinary.com/festivalpass/raw/upload/v1567984492/Fonts/Sofia%20Pro%20Medium/449bb77f-1bc7-4956-a8f1-3d4ae9243a59_ytnqjc.ttf")
+      format("truetype"); } @font-face{ font-family: "Sofia Bold";
+      src:url("https://res.cloudinary.com/festivalpass/raw/upload/v1567984467/Fonts/Sofia%20Pro%20Bold/c2440dd8-b25c-49ba-bc04-8a638a943324_fej5do.eot?#iefix");
+      src:url("https://res.cloudinary.com/festivalpass/raw/upload/v1567984467/Fonts/Sofia%20Pro%20Bold/c2440dd8-b25c-49ba-bc04-8a638a943324_fej5do.eot?#iefix")
+      format("eot"),url("https://res.cloudinary.com/festivalpass/raw/upload/v1567984467/Fonts/Sofia%20Pro%20Bold/80042803-0630-405f-b2d2-af97b4e50b46_txhore.woff2")
+      format("woff2"),url("https://res.cloudinary.com/festivalpass/raw/upload/v1567984467/Fonts/Sofia%20Pro%20Bold/ec41d681-0313-4b04-88c0-820aebb51f4e_glnasz.woff")
+      format("woff"),url("https://res.cloudinary.com/festivalpass/raw/upload/v1567984467/Fonts/Sofia%20Pro%20Bold/81434fc3-e426-4a4c-987d-f25c098198c4_pu2y2u.ttf")
+      format("truetype"); } @font-face{ font-family: Sofia Black;
+      src:url("https://res.cloudinary.com/festivalpass/raw/upload/v1567984479/Fonts/Sofia%20Pro%20Black/6bd004df-7217-4ef6-9ed8-c99a12b77bf1_yxk5vg.eot?#iefix");
+      src:url("https://res.cloudinary.com/festivalpass/raw/upload/v1567984479/Fonts/Sofia%20Pro%20Black/6bd004df-7217-4ef6-9ed8-c99a12b77bf1_yxk5vg.eot?#iefix")
+      format("eot"),url("https://res.cloudinary.com/festivalpass/raw/upload/v1567984479/Fonts/Sofia%20Pro%20Black/fb8331b5-dfd3-496e-9a0e-8afbb5014272_rglw8l.woff2")
+      format("woff2"),url("https://res.cloudinary.com/festivalpass/raw/upload/v1567984479/Fonts/Sofia%20Pro%20Black/b65232b3-e982-4cd6-a8ae-4bee2ecdb90d_nnrypu.woff")
+      format("woff"),url("https://res.cloudinary.com/festivalpass/raw/upload/v1567984479/Fonts/Sofia%20Pro%20Black/2dec1b8b-9bad-4cc0-8bea-76f93ebb2331_h3u8eg.ttf")
+      format("truetype"); } .title-big { color: #091D2C; font-family: Sofia
+      Black, Open Sans, sans-serif; font-size: 32px; font-weight: 800;
+      font-style: normal; line-height: 1.25; letter-spacing: 0px; font-stretch:
+      normal; padding: 0px; } .text-big { color: #091D2C; font-family: Sofia
+      Mediun, Open Sans, sans-serif; font-size: 24px; font-weight: 600;
+      font-style: normal; line-height: 1.5; letter-spacing: 0px; font-stretch:
+      normal; } .text { color: #454F57; font-family: Sofia Regular, Open Sans,
+      sans-serif; font-size: 16px; font-weight: normal; font-style: normal;
+      line-height: 1.63; letter-spacing: normal; font-stretch: normal; }
+      .paragraph { padding: 17px 0px 72px 0px; } .mar-vert-0 { margin-top: 0px;
+      margin-bottom: 0px; } @media (max-width:480px) { .pad-mob-hor {
+      padding-left: 15px; padding-right: 15px; } .pad-mob-hor-lg { padding-left:
+      61px; padding-right: 61px; } .pad-mob-ver { padding-top: 65px;
+      padding-bottom: 65px; } } @media (min-width:480px) { .pad { padding-left:
+      66px; padding-right: 66px; } .pad-sm { padding-left: 48px; padding-right:
+      48px; } .pad-lg-hor-big { padding-left: 129px; padding-right: 129px; } }
+      @media (max-width: 480px) { .image, .image > div > table {
+      background-color: #FFFFFF; } .footer { padding-left: 10px; } } @media
+      (max-width: 750px) { .image, .image > div > table {
+      background:url(https://res.cloudinary.com/festivalpass/image/upload/v1568020656/Email/Backgrounds/tranactional-top-mobile_2x_n0nyv6.png)
+      no-repeat !important; background-color: #FFFFFF; } .ad-image { width: 80%;
+      } }
+    </mj-style>
+    <mj-style inline="inline">
+      .footer { max-width: 162px !important; }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#F5F5F5" text-align="center" width="750px">
+    <mj-include path="includes/header.mjml" />
+    <mj-include path="includes/festival-created.mjml" />
+    <mj-include path="includes/footer.mjml" />
+  </mj-body>
+</mjml>

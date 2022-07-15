@@ -1,0 +1,1167 @@
+{
+  "common": {
+    "join": "Join Now",
+    "join2": "Become a member",
+    "join3": "Become a founding member for $99",
+    "join4": "Become a Founding Member",
+    "joinGift": "Buy Gift",
+    "previous": "Previous",
+    "next": "Next",
+    "continue": "Continue",
+    "save": "Save",
+    "enterPassword": "Enter your password",
+    "credits": "Credits",
+    "saveBtn": "Save Changes",
+    "watchVideo": "Watch the film",
+    "watchVideoAlt": "Watch the film play icon",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "placeholders": {
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    "organization": "Organization",
+    "email": "Email",
+    "zipcode": "Zip Code",
+    "giftCode": "Gift Code (optional)",
+    "enterGiftCode": "Enter gift code",
+    "referralLabel": "Referral Code",
+    "referralPlaceholder": "Enter referral code",
+    "password": "Password",
+    "returnBtn": "Return to festivalpass.com",
+    "forgotPassword": "Forgot Password?",
+    "and": "and",
+    "continueEmail": "Continue with email",
+    "termsOfService": "Terms of Service",
+    "privacyPolicy": "Privacy Policy",
+    "login": "Log in",
+    "signUp": "Sign up",
+    "signUp2": "Sign up for Free",
+    "footer": "By signing up you agree to our ",
+    "search": "Search",
+    "buyCode": "Buy Code",
+    "required": "Required",
+    "emailField": {
+      "label": "Email",
+      "placeholder": "Enter your email address",
+      "errorMessages": {
+        "email": "Please enter a valid email address",
+        "required": "Email address is required"
+      }
+    },
+    "invalidFields": "Please correct invalid fields"
+  },
+  "errorMessages": {
+    "generic": "An unexpected error occurred."
+  },
+  "header": {
+    "aboutUs": "About us",
+    "howItWorks": "How it works",
+    "ourStory": "Our story",
+    "foundingMember": "Founding Membership",
+    "login": "Login",
+    "year": "year",
+    "month": "month",
+    "yr": "yr",
+    "mo": "mo",
+    "festivals": "Events",
+    "festivalOwners": "For Event Owners",
+    "influencers": "For Influencers",
+    "pricing": "Pricing",
+    "home": "Home",
+    "stories": "Podcast",
+    "paymentLink": "Upgrade Plan",
+    "settingsLink": "User Settings",
+    "logoutLink": "Log out",
+    "festivalsLink": "Events",
+    "venuesLink": "Venues",
+    "hotelsLink": "Hotels",
+    "feedLink": "Feed",
+    "talentsLink": "Talents",
+    "inviteLink": "Invite Friends",
+    "dropdownHeader": "My Credits",
+    "ticketsLink": "My Adventures",
+    "wishlistsLink": "My Wishlists",
+    "manageEventsLink": "Manage Events",
+    "giftingLinktext": "Gift a 2021 Membership",
+    "crowdfundingBanner": {
+      "investLinkText": "Own Equity in festivalPass - Learn More",
+      "wefunderLinkText": "Own equity",
+      "giftingLinkText": "Gift a 2021 Membership"
+    },
+    "buyGift": "Buy Gift"
+  },
+  "footer": {
+    "copyright": "Festival Pass. All rights reserved.",
+    "getHelp": "Get Help",
+    "faqs": "FAQ's",
+    "connectWithUs": "Connect with us",
+    "aboutFestivalPass": "About Festival Pass",
+    "getInvolved": "Get Involved",
+    "becomePartner": "Become a Partner",
+    "becomeInfluencer": "Become an Influencer",
+    "submitEvent": "Submit event",
+    "getUpdated": "Get Updated",
+    "inviteFriends": "Invite Friends",
+    "searchFestivals": "Search Events"
+  },
+  "landingPage": {
+    "hero": "Experiences that change you",
+    "referralSuperHeroSection": {
+      "hello": "Welcome to Festival Pass! 👋",
+      "p1": " has invited you to join Festival Pass! When you become a member, you will help them get to their next festival or event.",
+      "p2": "Once a member, you will be able to earn credits towards your favorite events by inviting your friends too! Upgraded memberships get exclusive perks and more credits!",
+      "getStarted": "Get Started"
+    },
+    "festivalPartners": {
+      "title": "Featured Festival Pass partners",
+      "subtitle": "100+ Awesome festivals in different categories"
+    },
+    "aboutUs": {
+      "title": "WHAT IS FESTIVAL PASS?",
+      "subtitle": "The world's first festival subscription service across music, film, food & wine and more. Enjoy hundreds of festivals locally and globally for one monthly fee.",
+      "buttonLabel": "Sign Up for FREE "
+    },
+    "howItWorks": {
+      "title": "Using Festival Pass is easy",
+      "subtitle": "Let us show you how it works",
+      "step1": {
+        "title": "Pick your monthly plan",
+        "body": "Get monthly credits to use at every festival or event in the network. There is an experience for everyone."
+      },
+      "step2": {
+        "title": "Search for any festival or event",
+        "body": "Filter by time, genre, location and even mood. Not sure where to start? We’ll help with personalized recommendations."
+      },
+      "step3": {
+        "title": "Secure your admission",
+        "body": "We weren’t kidding when we say it’s easy. Reserve your admission ticket in a tap.  Sometimes even get additional perks and automatic upgrades!"
+      },
+      "step4": {
+        "title": "Get friends to join you",
+        "body": "Invite your friends right through the app, share your experiences and get rewarded when they join Festival Pass and you at the event."
+      },
+      "step5": {
+        "title": "Create your perfect weekend or trip",
+        "body": "...live life live.  Get out and see an artist, try new wine, taste amazing food, see a film and hear from the director.  Be a part of an inspired life."
+      }
+    },
+    "ourStory": {
+      "title": "Our Story",
+      "p1": "Festival Pass is a story about community and creating experiences that change you. We as humans need connection - it’s in our DNA, as strong a need as food, water and warmth.",
+      "p2": "The team at Festival Pass, that spans the globe from Bali to NY to Detroit to Lisbon, is bringing our members the only place to make accessing, discovering and attending festivals across music, film, art, food & wine, and tech & innovation the most user friendly, frictionless, affordable and valuable member experience possible.",
+      "p3": "We strive every day to secure new event partners, think about what we ourselves would want from a social mobile app that compliments our live experience and encourages all to live, life, live.",
+      "p4": "Now festival goers from music, art, food & wine, film and other interests can become a member of Festival Pass and join the millions of life fans from around the world choosing to enjoy experiences live.",
+      "p5": "In order to make our dream for you a reality and get the input and support of our tribe from the outset, we are providing the opportunity for a few thousand Founding Members to join us in changing how we all experience festivals and events.",
+      "illustrationAlt": "Festival Pass is a story about community and creating experiences that change you."
+    },
+    "foundingMember": {
+      "title": "Why become a founding member?",
+      "buttonLabel": "Get Started",
+      "festivalAtmosphereCollageAlt": "Festival atmosphere collage",
+      "footNote": "* $85/month when paid upfront for a 12 month subscription. $99/month paid monthly. Paid upfront subscriptions will receive the full 1200 credit allotment for all 12 months upfront to be used as desired."
+    }
+  },
+  "paymentPage": {
+    "title": "Payment Info",
+    "subtitle": "You will be billed ${{amount}} to secure your {{planName}}. This will cover your first month subscription.",
+    "annualPlanSubtitle": "You will be billed ${{amount}} to secure your 12 month pre-paid {{planName}}. This will cover your first 12 months of subscription. Your {{credits}} credits will immediately post to your account."
+  },
+  "billingForm": {
+    "name": {
+      "label": "Name on card",
+      "placeholder": "Full Name"
+    },
+    "cardNumber": { "label": "Card Number" },
+    "expirationDate": { "label": "Expiration Date" },
+    "cvc": { "label": "CVC" },
+    "zipcode": { "label": "Postal Code", "placeholder": "Enter Postal Code" },
+    "coupon": {
+      "label": "Promo Code",
+      "placeholder": "Coupon",
+      "errorMessages": {
+        "notActive": "This coupon is not active.",
+        "redeemed": "This coupon is already redeemed.",
+        "notEligible": "This coupon is not compatible with the selected plan"
+      },
+      "discount": "discounted amount"
+    },
+    "charge": "will be charged",
+    "secureNotice": "Your transaction is secure",
+    "annualPlanOffer": {
+      "title": "Save {{benefitPercentage}}% and get {{credits}} credits!",
+      "subtitle": "Secure your {{planName}} and get special price on 12-month membership for ${{amount}} right now!"
+    }
+  },
+  "promoBillingForm": {
+    "name": "Name on card",
+    "cardNumber": "Card Number",
+    "expirationDate": "Expiration Date",
+    "cvc": "CVC",
+    "zipcode": "Postal Code",
+    "coupon": "Promo Code",
+    "charge": "will be charged",
+    "secureNotice": "Your transaction is secure",
+    "emailPlaceholder": "john.doe@example.com",
+    "emailInput": "Email",
+    "firstNameInput": "First Name",
+    "lastNameInput": "Last Name"
+  },
+  "paymentSuccessfulPage": {
+    "title": "Congratulations! 🎉",
+    "subtitle": "You now have the {{planName}} on festivalPass! A confirmation email has been sent to your inbox. What’s next? <1>Invite your friends!</1> If you are a Founding Member, you will earn up to 2X rewards, for a limited time, for all friends that sign up using your link/code. Give them additional credits when they sign up and earn up to double additional credits for yourself!",
+    "bullet1": "New Festival and Event Partners are joining every day! ",
+    "bullet2": "Save up credits to redeem big ticket events later.",
+    "bullet3": "Your first payment will be used for your 1st month subscription, 2nd month will not be billed until 30 days after your signup date.",
+    "bullet3Annual": "You now have the {{planName}} for 12 months starting from time of official launch. {{creditAmount}} credits have been applied to your account.",
+    "primaryBtn": "Earn more credits",
+    "secondaryBtn": "Explore Events"
+  },
+  "freeSignupSuccessfulPage": {
+    "title": "Welcome to festivalPass! 🎉",
+    "subtitle": "Let the adventure begin. You are now a FREE Member of Festival Pass! A confirmation email has been sent to your inbox. What’s next? <2>Invite your friends!</2> As a FREE Member, you will earn rewards for all friends that sign up using your link/code. Give them additional credits when they sign up and earn up credits for yourself!",
+    "bullet1": "New Festival and Event Partners joining every day! ",
+    "bullet2": "You are a FREE Member – Upgrade to <1>founding member</1> status for additional credits and benefits",
+    "primaryBtn": "Earn more credits",
+    "secondaryBtn": "Explore Events"
+  },
+  "giftingPaymentPage": {
+    "title": "Give the Gift of festivalPass",
+    "subtitle": "Your loved one will receive a 12 month subscription and {{credits}} credits to choose from hundreds of events in 2021. You will be billed a one time fee of {{amount}}.",
+    "sections": {
+      "recipient": {
+        "title": "Recipient's Information",
+        "fields": {
+          "recipient_first_name": {
+            "label": "First Name",
+            "placeholder": "Jane"
+          },
+          "recipient_last_name": {
+            "label": "Last Name",
+            "placeholder": "Doe"
+          },
+          "recipient_email": {
+            "label": "Email",
+            "placeholder": "jane@doe.com"
+          }
+        }
+      },
+      "sender": {
+        "title": "About You",
+        "fields": {
+          "sender_first_name": {
+            "label": "First Name",
+            "placeholder": "John"
+          },
+          "sender_last_name": {
+            "label": "Last Name",
+            "placeholder": "Doe"
+          },
+          "sender_email": {
+            "label": "Email",
+            "placeholder": "john@doe.com"
+          }
+        }
+      },
+      "billing": {
+        "title": "Billing Information"
+      }
+    }
+  },
+  "giftingPaymentSuccessfulPage": {
+    "title": "Congratulations!",
+    "subtitle": "Your gift membership purchase is confirmed. You just purchased the best gift for 2021!  A year of live events.",
+    "content": "A confirmation email has been sent to your email address with the gift membership code. You or your loved one can redeem the code when ready at <0>https://www.festivalpass.com/register</0> - Gift recipient can enter the gift code at checkout for payment. Get ready to live.life.live.",
+    "primaryBtn": "Explore Festivals"
+  },
+  "billingSuccess": {
+    "title": "Congratulations",
+    "subtitle": "You are one of the first people on the waitlist for Founding Member Status! Keep an eye on your email for when we officially launch ;)"
+  },
+  "forgotPasswordPage": {
+    "title": "Forgot Password?",
+    "subtitle": "We'll send password reset instructions to the email address associated with your account.",
+    "inputLabel": "Email",
+    "inputPlaceholder": "Enter your email address",
+    "buttonLabel": "Reset Password"
+  },
+  "forgotPasswordConfirmationPage": {
+    "title": "Reset link was sent!",
+    "subtitle": "Please check your email. Instructions were sent to your email address."
+  },
+  "resetPasswordPage": {
+    "title": "Welcome Back!",
+    "subtitle": "Now you can create a new password.",
+    "inputLabel1": "Password",
+    "inputLabel2": "Confirm Password",
+    "inputPlaceholder1": "Enter a new password",
+    "inputPlaceholder2": "Confirm a new password",
+    "buttonLabel": "Reset Password",
+    "noResetCodePresent": "Reset code is not present or expired."
+  },
+  "resetPasswordConfirmationPage": {
+    "title": "Password Reset Successfully!",
+    "subtitle": "You can now continue with your new password.",
+    "buttonLabel": "Go back"
+  },
+  "editPhonePage": {
+    "title": "Verify your Phone",
+    "subtitle": "Please enter your phone number to request a verification code.",
+    "form": {
+      "fields": {
+        "phone": {
+          "label": "Phone Number",
+          "placeholder": "Enter your Phone Number"
+        }
+      },
+      "submitButtonText": "Request Verification Code"
+    }
+  },
+  "confirmPhonePage": {
+    "title": "Verify your Phone",
+    "subtitle": "Please enter your verification code to confirm your phone number.",
+    "form": {
+      "fields": {
+        "code": {
+          "label": "Verification Code",
+          "placeholder": "Enter your Verification Code"
+        }
+      },
+      "submitButtonText": "Verify Code"
+    },
+    "resendCode": {
+      "buttonText": "Resend Verification Code",
+      "notification": {
+        "success": "Sent a new Verification Code to {{phone}}",
+        "error": "Failed to resend Verification Code to {{phone}}"
+      }
+    }
+  },
+  "settingsPage": {
+    "title": "User Settings",
+    "subHeader": {
+      "preferences": "My Preferences",
+      "badges": "Badges",
+      "account": "Account",
+      "password": "Password",
+      "payments": "Payments",
+      "recommendations": "Recommendations"
+    },
+    "account": {
+      "form": {
+        "fields": {
+          "firstName": {
+            "label": "First Name",
+            "placeholder": "First name"
+          },
+          "lastName": {
+            "label": "Last Name",
+            "placeholder": "Last name"
+          },
+          "email": {
+            "label": "Email Address",
+            "placeholder": "Your email address"
+          },
+          "zipcode": {
+            "label": "Location",
+            "placeholder": "Postal Code"
+          }
+        },
+        "submitButtonText": "Save Changes",
+        "notifications": {
+          "failure": "Uh oh, something went wrong. Contact support@festivalpass.com for help."
+        }
+      }
+    },
+    "badges": {
+      "primary": "Primary",
+      "emptyHeader": "No badges yet",
+      "emptyHelp": "When you receive a badge, you will be able to view it here."
+    },
+    "preferences": {
+      "referral": {
+        "subtitle": "Your personal referral code",
+        "link": "Invite Friends",
+        "p1": "You can share your personal code with your friends to earn more credits. More details on the",
+        "p2": "page."
+      },
+      "connecting": "Connecting",
+      "disconnect": "Disconnect",
+      "disconnecting": "Disconnecting",
+      "facebook": {
+        "subtitle": "Connect to Facebook",
+        "subtitleConnected": "You are connected to Facebook",
+        "p": "We will never post to Facebook or message your friends without your permission.",
+        "pConnected": "You can now sign in to festivalPass using your Facebook account. We will never post to Facebook or message your friends without your permission.",
+        "buttonLabel": "Connect to Facebook"
+      },
+      "instagram": {
+        "subtitle": "Connect to Instagram",
+        "subtitleConnected": "You are connected to Instagram",
+        "p": "We will never post to Instagram or message your friends without your permission.",
+        "pConnected": "You can now sign in to festivalPass using your Instagram account. We will never post to Instagram or message your friends without your permission.",
+        "buttonLabel": "Connect to Instagram"
+      },
+      "followedCategories": {
+        "subtitle": "Favorite event categories",
+        "p": "Manage event categories you love, so our recommendations and special offers will be more personal.",
+        "buttonLabel": "Manage Categories"
+      },
+      "followedEvents": {
+        "subtitle": "Events you follow",
+        "p": "Manage events you love, so our recommendations and special offers will be more personal.",
+        "buttonLabel": "Manage Events"
+      }
+    },
+    "password": {
+      "form": {
+        "fields": {
+          "currentPassword": {
+            "label": "Current password",
+            "placeholder": "Enter your current password",
+            "errorMessages": {
+              "loginError": "Your current password is incorrect."
+            }
+          },
+          "newPassword": {
+            "label": "New password",
+            "placeholder": "Enter new password"
+          },
+          "newPasswordConfirm": {
+            "label": "Confirm new password",
+            "placeholder": "Confirm your new password"
+          }
+        },
+        "submitButtonText": "Change Password",
+        "notifications": {
+          "failure": "Uh oh, something went wrong. Contact support@festivalpass.com for help."
+        }
+      }
+    },
+    "payments": {
+      "membershipSection": {
+        "title": "Membership: {{membershipName}}",
+        "membershipText": "There are {{daysLeft}} days left until your membership renews on {{nextPaymentDate}} for which you'll be charged ${{nextPaymentAmount}}"
+      },
+      "updateMembershipButton": {
+        "buttonText": "Update Membership",
+        "modal": {
+          "title": "Update Membership",
+          "subtitle": "Choose another membership to downgrade/upgrade.",
+          "freeMemberships": "Free",
+          "missingPaymentMethodWarning": "You will only be able to upgrade once you added a payment method. For that you can close this modal and click the plus button in the Payment Methods section.",
+          "errorMessage": "Uh oh, something went wrong. Contact support@festivalpass.com for help.",
+          "submitBtn": "Confirm",
+          "cancelBtn": "Cancel"
+        }
+      },
+      "paymentMethodsSection": {
+        "title": "Payment methods",
+        "expires": "Expires {{expirationMonth}}/{{expirationYear}}",
+        "default": "Default payment method"
+      },
+      "addPaymentMethod": {
+        "modal": {
+          "title": "Add New Payment Method",
+          "subtitle": "Link a credit card to your account."
+        }
+      },
+      "creditCardForm": {
+        "submitButtonText": "Add payment method",
+        "messages": {
+          "success": "New payment method created",
+          "error": "Could not save the payment method."
+        },
+        "fields": {
+          "cardNumber": {
+            "label": "Card Number"
+          },
+          "cardOwnerName": {
+            "label": "Card Owner"
+          },
+          "expirationDate": {
+            "label": "Expiration Date"
+          },
+          "cvc": {
+            "label": "CVC"
+          }
+        }
+      },
+      "removePaymentMethodButton": {
+        "buttonText": "Remove",
+        "confirmationModal": {
+          "title": "Delete Payment Method?",
+          "subtitle": "Very last warning, action cannot be undone.",
+          "submitBtn": "Delete",
+          "cancelBtn": "Cancel"
+        }
+      },
+      "makePaymentMethodDefaultButton": {
+        "buttonText": "Make default",
+        "confirmationModal": {
+          "title": "Use as Default Payment Method?",
+          "subtitle": "Upcoming payments will be charged to this payment method.",
+          "submitBtn": "Make Default",
+          "cancelBtn": "Cancel"
+        }
+      },
+      "billingHistorySection": {
+        "title": "Billing History",
+        "tableHeaders": {
+          "date": "Date",
+          "reference": "Reference",
+          "amount": "Amount (usd)",
+          "status": "Status",
+          "receipt": "Receipt",
+          "receiptLink": "Link"
+        },
+        "noBillingHistory": "No billing history is available.",
+        "showAllButton": {
+          "showAll": "Show all",
+          "loading": "Loading..."
+        }
+      }
+    },
+    "recommendations": {
+      "optIn": "Get Weekly Newsletter",
+      "title": "Personalized Newsletter Preview",
+      "description": "Opt-in to your personalized newsletter to receive recommendations once per week!"
+    }
+  },
+  "invitePage": {
+    "title": "Earn Your Festival Pass",
+    "subtitle": "Don’t leave your friends behind! Share your personal link or coupon code, invite friends & earn up to 12 bonus credits for each friend that upgrades to a Founding Member!",
+    "option1": {
+      "strong": "Share",
+      "text": " your code or referral link."
+    },
+    "option2": {
+      "strong": "Your friends",
+      "text": " earn 6 credits if they upgrade membership."
+    },
+    "option3": {
+      "strong": "You receive",
+      "text": " up to 12 bonus credits for you!"
+    },
+    "referral": {
+      "share": "Share your referral links",
+      "socialShareTitle": "Join me and earn free credits on Festival Pass – the first festival subscription service.",
+      "coupon": "Your unique referral coupon code",
+      "link": "Your unique personal referral link",
+      "copyButtonLabel": "COPY",
+      "copiedButtonLabel": "COPIED",
+      "friend": "Friend",
+      "status": "Status",
+      "earned": "Earned",
+      "referralStatus": {
+        "paidMember": "Paid Member",
+        "basicMember": "Basic Member",
+        "notConfirmed": "Not Confirmed"
+      }
+    },
+    "modal": {
+      "title": "Welcome to festivalPass!",
+      "subtitle": "Browse our festivals and invite your friends to share your experiences!",
+      "creditsText": "You currently have {{credits}} credits to spend however you like!",
+      "confirmButtonLabel": "Okay"
+    }
+  },
+  "notFoundPage": {
+    "title": "Not Found",
+    "subtitle": "Sorry, this page does not exist.",
+    "link": "Return to festivalpass.com"
+  },
+  "loginPage": {
+    "header": "Don't have an account?",
+    "title": "Login",
+    "subtitle": "Then you can enter our founding membership dashboard.",
+    "buttonLabel": "Continue with email",
+    "footer": "By logging in you agree to our "
+  },
+  "contactSection": {
+    "title1": "Main Office",
+    "title2": "Call",
+    "title3": "Email us",
+    "title4": "We're on social networks",
+    "address1": "109 Borough High Street,",
+    "address2": "London SE1 1NL",
+    "phone1": "+1 111 9998 7774",
+    "phone2": "+1 245 4544 6855",
+    "email1": "hello@alstarstudio.com",
+    "email2": "sales@alstarstudio.com"
+  },
+  "registerPage": {
+    "bannerSubtitle": "The first festival subscription service, change your life, get real live experiences.",
+    "title": "Create a free account",
+    "subtitle": "Get credits that can be used on festivals and events locally and around the world.",
+    "header": "Already have an account?",
+    "footer": "By signing up you agree to our "
+  },
+  "partnersRegisterPage": {
+    "sections": {
+      "top": {
+        "titleP1": "Join Festival Pass as a",
+        "titleP2": "Festival Partner",
+        "subtitle": "Promote your festival to our global audience on the world's first festival subscription service!"
+      },
+      "bottom": {
+        "title": "Hey Festival Partner! Festival Pass is the best place to find an audience of passionate fans that want to attend your event.",
+        "content": {
+          "one": {
+            "title": "Frictionless social engagement platform",
+            "content": "We’re all about creating a frictionless social engagement platform for audiences globally. Let our user base know about your wonderful event!"
+          },
+          "two": {
+            "title": "We love festivals just like you",
+            "content": "Our mission is to inspire people to lead active and engaging lives every day by participating in live community events locally and globally."
+          },
+          "three": {
+            "title": "Join the Festival Pass Movement",
+            "contentP1": "First monthly subscription service across all types of festivals including Music, Film, Food & Wine and more. Join us in helping our members",
+            "contentP2": "Live. Life. Live."
+          }
+        }
+      }
+    },
+    "forms": {
+      "registerUser": {
+        "header": "Already have an account?",
+        "title": "Step 1: Create an account",
+        "subtitle": "It’s absolutely free",
+        "submitButtonText": "Sign up"
+      },
+      "registerPartner": {
+        "title": "Step 2: Register as partner",
+        "subtitle": "It’s absolutely free",
+        "submitButtonText": "Become partner",
+        "fields": {
+          "organization": {
+            "label": "Company",
+            "placeholder": "Company name"
+          }
+        }
+      }
+    }
+  },
+  "selectPlanPage": {
+    "title": {
+      "authenticated": "Choose a plan",
+      "unauthenticated": "Available Plans"
+    },
+    "subtitle": {
+      "authenticated": "Welcome aboard, just choose a type of plan! Prepaid 12 month will save you up to ${{maximumAnnualBenefitAmount}}!",
+      "unauthenticated": ""
+    },
+    "sections": {
+      "monthlyMemberships": "Monthly Memberships",
+      "annualMemberships": "12 month Memberships"
+    },
+    "planCard": {
+      "bonusTickets": {
+        "included": "Signup Bonus ticket",
+        "notIncluded": "No bonus tickets"
+      },
+      "credits": "credits",
+      "per": "per",
+      "referralBonus": "referral bonus",
+      "annualBenefit": "Saves ${{annualBenefitAmount}} ({{annualBenefitPercentage}}% cheaper)"
+    },
+    "submitSection": {
+      "confirmPaidPlanButtonText": "Continue with Purchase",
+      "confirmFreePlanButtonText": "Continue as Basic Member for free",
+      "extraInformation": "* ${{lastAnnualTierAmount}}/month when paid upfront for a 12 month subscription. ${{lastMontlyTierAmount}}/month paid monthly. Paid upfront subscriptions will receive the full {{lastAnnualTierCredits}} credit allotment for all 12 months upfront to be used as desired."
+    }
+  },
+  "offersPage": {
+    "basicMember": {
+      "header": {
+        "title": "You're currently a basic member",
+        "party1": "Upgrade now to a founding member and get a FREE festival ticket!"
+      },
+      "body": {
+        "title": "Free complimentary ticket to Propelify Innovation Festival for <1>Founding Members</1>",
+        "subtitle": "YOUR FREE FESTIVAL TICKET",
+        "caption": "Upgrade now and get a free ticket! Propelify is the SXSW of the Northeast. ",
+        "btnLabelAuth": "Become a Founding Member",
+        "btnLabelNoAuth": "Sign up",
+        "deal": "FREE",
+        "declineOfferAuth": "Continue as a Basic Member",
+        "declineOfferNoAuth": "No thanks"
+      }
+    },
+    "upgrade": {
+      "title": "Earn festival credits",
+      "subtitle": "Special offer only for you!",
+      "leftTitle": "Get free <1/> festivals faster",
+      "bullet1": "Earn up to 2x the points for each referal",
+      "bullet2": "Credits will never expire",
+      "bullet3": "Exclusive founder status",
+      "offerAccept": "Continue",
+      "offerDecline": "No, thanks"
+    }
+  },
+  "manageEventsPage": {
+    "title": "Manage Events",
+    "subtitle": "Hi festivalPass partner. You can manage all your events here. Click your event to add/edit details of your event.",
+    "missingPartnerIdErrorMessage": "Only authenticated festival partners can manage events",
+    "submitNewEventlButton": "Submit new Event",
+    "failedDataFetchError": "Unfortunately something went wrong. Please let us know so we can help you out."
+  },
+  "eventForms": {
+    "title": {
+      "menuTitle": "Title",
+      "title": "Name Your Event",
+      "subtitle": "You are an important partner of festivalPass. We’re excited to see what you're organizing, and we’re even more excited to help you make it a success.  As you enter/edit information about your event it will appear on the right side screen as it will appear on your unique event page within festivalPass.",
+      "fields": {
+        "title": {
+          "label": "Title",
+          "placeholder": "Festival title"
+        }
+      }
+    },
+    "description": {
+      "menuTitle": "Description",
+      "title": "Describe Your Event",
+      "subtitle": "Enter a description of your event. More details the better!",
+      "fields": {
+        "description": {
+          "label": "Description",
+          "placeholder": "Describe your event here..."
+        }
+      }
+    },
+    "categories": {
+      "menuTitle": "Categories",
+      "title": "Choose Categories for Your Event",
+      "subtitle": "Assigning relevant categories helps your audience to find your festival better in search and in our recommendation engine.",
+      "fields": {}
+    },
+    "location": {
+      "menuTitle": "Location",
+      "title": "Event Location",
+      "subtitle": "Enter the location of your event. The more specific the better!",
+      "fields": {
+        "address": {
+          "label": "Address",
+          "placeholder": "e.g. 216 Union Street, Seattle, WA 98101"
+        },
+        "city": {
+          "label": "City",
+          "placeholder": "e.g. Seattle"
+        },
+        "state": {
+          "label": "State",
+          "placeholder": "e.g. WA"
+        },
+        "country": {
+          "label": "Country",
+          "placeholder": "e.g. United Statesl"
+        }
+      }
+    },
+    "date": {
+      "menuTitle": "Date",
+      "title": "When Will Your Event Take Place",
+      "subtitle": "Timing is everything. Only Choose a date in the future. Past events will be tagged as non active.",
+      "fields": {
+        "start": {
+          "label": "Start date",
+          "placeholder": "Start date"
+        },
+        "end": {
+          "label": "End date",
+          "placeholder": "End date"
+        }
+      }
+    },
+    "links": {
+      "menuTitle": "Links",
+      "title": "Website & Social",
+      "subtitle": "Share links to your official website and social media. Our Members always want to know more! We will auto create your festivalPass URL to share. Please edit if you prefer another one.",
+      "fields": {
+        "website": {
+          "label": "Website",
+          "placeholder": "Festival website url"
+        },
+        "facebook": {
+          "label": "Facebook",
+          "placeholder": "Festival facebook page url"
+        },
+        "festivalPassUrl": {
+          "label": "Festival pass url"
+        }
+      }
+    },
+    "capacity": {
+      "menuTitle": "Capacity",
+      "title": "Event Capacity",
+      "subtitle": "Please share the total maximum capacity of your event. This helps us categorize Your Event for our Members.",
+      "fields": {
+        "capacity": {
+          "label": "Capacity",
+          "placeholder": "Capacity"
+        }
+      }
+    },
+    "status": {
+      "menuTitle": "Status",
+      "title": "Event Status",
+      "subtitle": "Set the status to active to make your event publicly available.",
+      "fields": {
+        "isActive": {
+          "label": "Make publicly available"
+        }
+      }
+    },
+    "gallery": {
+      "menuTitle": "Gallery",
+      "title": "Gallery",
+      "subtitle": "Promote your event through image and video.",
+      "fields": {
+        "coverImage": {
+          "label": "Main image"
+        },
+        "gallery": {
+          "label": "Gallery"
+        },
+        "videoUrl": {
+          "label": "Youtube video",
+          "placeholder": "Youtube video url",
+          "youtubeValidationError": "Please specify a valid youtube video url"
+        }
+      }
+    },
+    "general": {
+      "required": "Required",
+      "somethingWentWrong": "Unfortunately something went wrong.",
+      "unauthorizedEventFormError": "Not allowed to update this event. Redirecting to the home page..",
+      "imagesField": {
+        "addImage": "Add image"
+      },
+      "formButtons": {
+        "saveAndContinue": "Save & Continue",
+        "undo": "Undo",
+        "save": "Save",
+        "next": "Next"
+      }
+    }
+  },
+  "linkedEventsSection": {
+    "title": "Events",
+    "selectDateFilter": {
+      "placeholder": "Select a date"
+    },
+    "amountInCredits": "{{amount}} credits",
+    "noEvents": "No Events",
+    "viewDetails": "View Details",
+    "viewmore": "View more"
+  },
+  "eventDetailPageContent": {
+    "partner": {
+      "title": "Organized by",
+      "placeholder": "Unnamed organizer"
+    },
+    "description": {
+      "title": "Description",
+      "placeholder": "Event description"
+    },
+    "title": {
+      "placeholder": "Untitled event"
+    },
+    "redeem": "Redeem",
+    "limitedquantity": "Limited Quantity",
+    "share": "Share",
+    "seemore": "See more",
+    "relatedfriends": "{{friends}}+ friends are going ",
+    "recommendedEvents": "Recommended Events",
+    "venue": {
+      "title": "Venue",
+      "seeVenue": "See Venue"
+    },
+    "date": {
+      "placeholder": "TBD"
+    },
+    "like": "LIKE",
+    "gallery": {
+      "imageAlt": "An event called {{name}}"
+    },
+    "tickets": {
+      "getTickets": "Get Tickets",
+      "title": "Tickets for {{name}}",
+      "creditBalanceTitle": "Credit Balance:",
+      "ticketOptionsHeader": "Ticket Options",
+      "ticketCostHeader": "Credit Cost",
+      "ticketCost": "Ticket Cost:",
+      "remainingBalanceTitle": "Remaining Balance:",
+      "amountInCredits": "from {{amount}} credits / person",
+      "successTitle": "Success!",
+      "successSubtitle": "You successfully acquired your ticket to {{name}}!",
+      "myTicketsButton": "My Adventures",
+      "noTicketsPlaceholder": "No tickets are currently available for this event.",
+      "numberOfTickets": "Number of Tickets",
+      "seatsTitle": "Seats",
+      "seats": "seats",
+      "credits": "credits",
+      "selectSeats": "Select Seats",
+      "seatPrice": "credits/seat",
+      "totalPrice": "Total Price",
+      "completePurchase": "Complete Purchase",
+      "go": "Go",
+      "selectDate": "Select Date and Time"
+    },
+    "claim": {
+      "title": "Is this your event?",
+      "callToAction": "Claim Now"
+    },
+    "talent": {
+      "title": "Talent"
+    },
+    "hovermesssage": {
+      "festivelpassmessage": "Official festivalPass partner event",
+      "normalchiplabel": "NEW",
+      "limitedtip": "only 8 left",
+      "badgemessage": "This is a private event. You must have the badge to book."
+    },
+    "seeMoreDates": "See more dates",
+    "location": {
+      "placeholder": "Not available"
+    }
+  },
+  "venueDetailPageContent": {
+    "chip": {
+      "venue": "VENUE"
+    },
+    "description": {
+      "title": "About venue",
+      "placeholder": "Venue description"
+    },
+    "favorite": "Favorite",
+    "similervanue": "Similar Venues",
+    "date": {
+      "placeholder": "Enter Date"
+    }
+  },
+  "organizationDetailPageContent": {
+    "chip": {
+      "organizer": "ORGANIZER"
+    },
+    "website": "Website",
+    "description": {
+      "title": "About organization",
+      "placeholder": "Description"
+    }
+  },
+  "talentDetailPageContent": {
+    "chip": {
+      "talent": "TALENT"
+    },
+    "website": "Website",
+    "description": {
+      "title": "About talent",
+      "placeholder": "Description"
+    },
+    "similarTalent": "Similar Talent"
+  },
+  "claimEventPage": {
+    "breadcrumbTitle": "Claim Event",
+    "title": "Are you the event owner?",
+    "subtitle": "Claim ownership to this festival through our simple verification process and get access to special features for festival owners.",
+    "description": "Enter your email using your festival domain (@{{hostname}}) and we will send a verification code to you via email.",
+    "submitButtonText": "Send verification code",
+    "customerSupportLinkText": "Have a problem with festival domain verification?"
+  },
+  "claimEventVerificationPage": {
+    "breadcrumbTitle": "Claim Event Verification",
+    "title": "Verification code was sent!",
+    "subtitle": "Now you can check your inbox to find the verification code needed to complete verification.",
+    "form": {
+      "submitButtonText": "Verify code",
+      "fields": {
+        "verification_code": {
+          "label": "Verification code",
+          "placeholder": "Enter 8-digit verification code",
+          "errorMessages": {
+            "min": "Minimum 8 digits",
+            "max": "Maximum 8 digits"
+          }
+        },
+        "organization": {
+          "label": "Organization Name",
+          "placeholder": "Ex: Festival Pass"
+        }
+      }
+    },
+    "resendCode": "Didn't receive your code? Resend verification code."
+  },
+  "claimEventConfirmationPage": {
+    "breadcrumbTitle": "Claim Event Confirmation",
+    "title": "It's official! Now you can manage your event!",
+    "subtitle": "As a Event Partner and Organizer of {{eventName}}, you unlocked access to an additional level of exclusive features:",
+    "feature1": "Update critical information to keep Festival Pass members in the loop",
+    "feature2": "View engagement metrics for your event",
+    "feature3": "Work directly with us to create exclusive offers for Festival Pass members",
+    "continueButton": "Open my events dashboard"
+  },
+  "myTicketsPage": {
+    "title": "My Tickets",
+    "subtitle": "Present your QR code to be admitted to your event",
+    "noTickets": "No Tickets",
+    "eventName": "Event Name",
+    "details": "Details",
+    "duration": "Duration",
+    "ticketId": "Ticket Id"
+  },
+  "eventsPage": {
+    "title": "Events you'll love",
+    "subtitle": "We are working hard every day to curate thousands of unique events for you! As you browse, let us know which events interest you by liking and sharing events with your friends!",
+    "events": {
+      "interested": "Following/Attending",
+      "searchResults": "Search results",
+      "upcoming": "Upcoming",
+      "atlanta": "Near Atlanta",
+      "newYork": "Near New York",
+      "losAngeles": "Near Los Angeles",
+      "austin": "Near Austin",
+      "category": "Because you like {{name}}"
+    },
+    "searchEventsPlaceholder": "Search events"
+  },
+  "venuesPage": {
+    "title": "Venues you'll love",
+    "subtitle": "We are working hard every day to curate hundreds of unique venues for you! As you browse, let us know which venues interest you!",
+    "searchVenuesPlaceholder": "Search venues"
+  },
+  "eventCards": {
+    "noEvents": "No relevant events are available."
+  },
+  "venueCards": {
+    "noVenues": "No relevant venues are available."
+  },
+  "eventCardsNearby": {
+    "title": "Nearby"
+  },
+  "eventCardsRecentlyAdded": {
+    "title": "Recently Added"
+  },
+  "eventChips": {
+    "new": "New",
+    "partner": {
+      "label": "Festival Pass",
+      "explanation": "Official Festival Pass partner"
+    }
+  },
+  "eventCard": {
+    "noLocation": "TBD",
+    "virtual": "Virtual"
+  },
+  "storiesPage": {
+    "introSection": {
+      "title": "stories",
+      "headlineP1": "Introducing the",
+      "headlineP2": "Festival Pass Stories Podcast",
+      "learnMoreButton": "Learn More",
+      "spofityButtonAlt": "Listen to Festival pass Stories Podcast on Spotify",
+      "appleMusicButtonAlt": "Listen to Festival pass Stories Podcast on Apple Music"
+    },
+    "hostSection": {
+      "title": "Your Host",
+      "knowMoreButton": "Get to know your host"
+    },
+    "latestEpisodesSection": {
+      "viewAllEpisodes": "View all Episodes"
+    },
+    "newsletterSection": {
+      "title": "Get the latest updates",
+      "subtitle": "Sign-up for our newsletter to get up to date information on the latest festivals on the podcast",
+      "getAccessButton": "Get Access"
+    },
+    "allEpisodesSection": {
+      "title": "All Episodes",
+      "seeAllButton": "See All",
+      "showLessButton": "Show Less"
+    },
+    "common": {
+      "listenNowButton": "Listen Now"
+    }
+  },
+  "storiesEpisodePage": {
+    "latestEpisodesButton": "Latest Episodes"
+  },
+  "addEventsPage": {
+    "illustrationCaption": "Enjoy live streams, video content and connect with your friends!",
+    "title": "Last thing!",
+    "subtitle": "Select a few festivals that interest you"
+  },
+  "addInterestsPage": {
+    "illustrationCaption": "The best festivals locally and globally: Music, Art, Film, Food & Wine and more.",
+    "title": "What interests you?",
+    "subtitle": "Select a few festival categories that interest you",
+    "searchInputPlaceholder": "Search topics.."
+  },
+  "search": {
+    "searchPlaceholder": "Search for live events, venues, talent...",
+    "allTags": "All tags",
+    "showMore": "Showmore",
+    "showLess": "Showless",
+    "location": {
+      "label": "Location",
+      "placeholder": "Add Location",
+      "all": "All locations"
+    },
+    "date": {
+      "label": "Dates",
+      "placeholder": "Add Dates"
+    },
+    "categories": {
+      "label": "Categories",
+      "placeholder": "Add Category",
+      "all": "All categories"
+    },
+    "credits": {
+      "label": "Credits",
+      "placeholder": "Add Credit range"
+    },
+    "clearall": "Clear All",
+    "liveEvents": "Live Events",
+    "showAll": "Show all",
+    "tbd": "TBD",
+    "venue": "Venues",
+    "creditsRange": {
+      "min": "Min credits",
+      "max": "Max credits",
+      "clear": "Clear",
+      "save": "Save"
+    }
+  },
+  "searchedLayout": {
+    "recommendation": "Recommendations"
+  },
+  "eventCheckout": {
+    "getTickets": "Get Tickets",
+    "emailSent": "Email Sent with Ticket Details",
+    "close": "Close",
+    "goHome": "Go Home",
+    "thankYou": "Thanks for your purchase",
+    "howToDeliver1": "Thank you for your order. When your order is fulfilled, an email will be sent to ",
+    "howToDeliver2": " with information on ticket delivery.",
+    "share": "Share with a Friend",
+    "socialShareTitle": "I'm going to buy {{event}} event",
+    "transactionId": "Order #{{transaction}}",
+    "findHotel": "Find a Hotel >",
+    "membership": "Membership"
+  },
+  "talentsPage": {
+    "title": "Discover Talent",
+    "subtitle": "We have tens of thousands of events with amazing Talent including artists, athletes, actors, chefs, winemakers and more curated just for you! As you browse, let us know which talent interest you by liking and sharing talent pages with your friends!",
+    "searchPlaceholder": "Search talents",
+    "talents": {
+      "music": "Music",
+      "sports": "Sports",
+      "film": "Film",
+      "food": "Food & Wine",
+      "comedy": "Comedy",
+      "theater": "Theater",
+      "other": "Other"
+    }
+  }
+}

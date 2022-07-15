@@ -1,0 +1,92 @@
+import { gql, useMutation } from '@apollo/client';
+import { useLocation } from '@reach/router';
+import { navigate } from 'gatsby';
+import { get, map, without } from 'lodash';
+import { stringifyUrl } from 'query-string';
+import React, { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import colors from '../../../../constants/colors';
+import { useUser } from '../../../../context/user';
+import fragments from '../../../../utils/gqlFragments';
+import { Btn } from '../../../Elements';
+import filledHeart from './filledHeart.svg';
+import outlinedHeart from './outlinedHeart.svg';
+
+interface Props {
+  className?: string;
+  eventId: number;
+  color?: string;
+  fontSize?: string;
+}
+
+const EventInterestButton: React.FC<Props> = ({ className, eventId, color, fontSize }) => {
+  const { t } = useTranslation();
+  const { user, fetchUser } = useUser();
+  const location = useLocation();
+
+  const [interestedEventIds, setInterestedEventIds] = useState<number[]>([]);
+  const [isInterested, setIsInterested] = useState<Boolean>(false);
+
+  useEffect(() => {
+    setInterestedEventIds(map(get(user, 'interested_festivals', []), 'id'));
+  }, [user]);
+
+  useEffect(() => {
+    setIsInterested(interestedEventIds.includes(eventId));
+  }, [interestedEventIds]);
+
+  const [updateUser, updateUserMutation] = useMutation(gql`
+    mutation UpdateUserMutation($input: updateUserInput) {
+      updateUser(input: $input) {
+        user {
+          ...UserDetails
+        }
+      }
+    }
+    ${fragments.userDetails}
+  `);
+
+  const toggleInterest = async () => {
+    if (user) {
+      const newInterestedEventIds = isInterested
+        ? without(interestedEventIds, eventId)
+        : [...interestedEventIds, eventId];
+
+      setIsInterested(!isInterested);
+
+      await updateUser({
+        variables: {
+          input: {
+            where: { id: user.id },
+            data: { interested_festivals: newInterestedEventIds },
+          },
+        },
+      });
+
+      fetchUser();
+    } else {
+      navigate(stringifyUrl({ url: '/login', query: { from: location.pathname } }));
+    }
+  };
+
+  if (!eventId) {
+    return null;
+  }
+
+  return (
+    <Btn
+      className={className}
+      label="Like"
+      type="button"
+      background={colors.transparent}
+      color={color ? color : colors.primary}
+      height="40px"
+      fontSize={fontSize ? fontSize : '14px'}
+      width="auto"
+      onClick={toggleInterest}
+      img={isInterested ? filledHeart : outlinedHeart}
+    />
+  );
+};
+
+export default EventInterestButton;

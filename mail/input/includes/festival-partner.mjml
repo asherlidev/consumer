@@ -1,0 +1,49 @@
+<mj-section css-class="image" background-url="https://res.cloudinary.com/festivalpass/image/upload/v1566310014/Email/Backgrounds/tranactional-top_w1bduy.png" background-repeat="no-repeat" padding="0">
+  <mj-column>
+    <mj-text align="center" padding="27px 0 17px 0" >
+      <h1 class="title-big mar-vert-0">Hi, {{name}}!</h1>
+      <p class="text pad pad-mob-hor">We are excited to announce that <strong>Denver Music Festival</strong> has joined us on festivalPass!</p>
+    </mj-text>
+  </mj-column>
+</mj-section>
+<mj-section padding="0px">
+  <mj-column>
+    <mj-image padding="0px" src="https://res.cloudinary.com/festivalpass/image/upload/v1566554315/Email/Pictures/bitmap_sv0bju.png"></mj-image>
+  </mj-column>
+</mj-section>
+<mj-section background-color="#FFFFFF" padding="0">
+  <mj-column background-color="#FFFFFF" align="center" padding="0">
+    <mj-table width="70%" align="center" padding="54px 0 39px 0" css-class="table">
+      <tr>
+        <td class="text" style="text-align: left">
+          <p><strong>Name</strong></td></p>
+        <td>
+        <td class="text" style="text-align: right">
+          <p>{{festival.name}}</p>
+        <td>
+      <tr>
+        <td class="text" style="text-align: left">
+          <p><strong>Category</strong></td></p>
+        <td>
+        <td class="text" style="text-align: right">
+          <p>{{festival.category}}</p>
+        <td>
+      </tr>
+      <tr>
+        <td class="text" style="text-align: left">
+          <p><strong>Date</strong></td></p>
+        <td>
+        <td class="text" style="text-align: right">
+          <p>{{festival.date}}</p>
+        <td>
+      </tr>
+    </mj-table>
+    <mj-divider width="80%" border-width="1px" border-style="solid" border-color="#D8D8D8"/>
+  </mj-column>
+</mj-section>
+<mj-section background-color="#FFFFFF" background-url="https://res.cloudinary.com/festivalpass/image/upload/v1566310198/Email/Backgrounds/bg-6_uhtnwh.png" background-repeat="no-repeat" align="center" padding="0">
+  <mj-column padding="28px 0 80px 0">
+    <mj-button href={{url}}  padding="0px" font-family="Lato" font-size="18px" font-weight="700" font-style="normal" line-height="normal" letter-spacing="normal" font-stretch="normal" background-color="#FA2069" color="#FFFFFF" border-radius="16px" inner-padding="14px 18px 15px 18px">Find out more
+    </mj-button>
+  </mj-column>
+</mj-section>

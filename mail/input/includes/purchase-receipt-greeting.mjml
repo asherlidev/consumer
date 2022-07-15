@@ -1,0 +1,12 @@
+<mj-section background-color="#FFFFFF" background-url="https://res.cloudinary.com/festivalpass/image/upload/v1566310198/Email/Backgrounds/bg-6_uhtnwh.png" background-repeat="no-repeat" align="center">
+  <mj-column>
+   <mj-image padding="0px" width="32px" src="https://res.cloudinary.com/festivalpass/image/upload/v1566382175/Email/Icons/done_kigub3.png"></mj-image>
+    <mj-text align="center" padding="27px 0 17px 0" >
+      <h1 class="title-big mar-vert-0">Yay, you're ready to go!</h1>
+      <p class="text pad-lg-hor-big pad-mob-hor">Thank you! Your purchase of <strong>$49.99</strong> for <strong>68 credits</strong> has been received. Please see further details below</p>
+    </mj-text>
+  </mj-column>
+</mj-section>
+
+
+

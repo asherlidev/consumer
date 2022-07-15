@@ -1,0 +1,56 @@
+<mj-section css-class="image" background-url="https://res.cloudinary.com/festivalpass/image/upload/v1566310014/Email/Backgrounds/tranactional-top_w1bduy.png" background-repeat="no-repeat" padding="0">
+  <mj-column padding="80px 0 0px 0">
+    <mj-text align="left" padding="0 0 0 0" font-family="Sofia Black, Open Sans, sans-serif;" >
+      <h1 class="title-big mar-vert-0 pad-mob-hor pad">Congratulations! 🎉</h1>
+    </mj-text>
+  </mj-column>
+</mj-section>
+ <mj-section background-repeat="no-repeat" padding="0" background-color="#FFFFFF">
+  <mj-column padding="0px 0 0px 0">
+    <mj-text align="left" padding="27px 0 27px 0" font-family="Sofia Black, Open Sans, sans-serif;" >
+      <p class="text pad-mob-hor pad mar-vert-0">You are an exclusive Founding Member of festivalPass! A confirmation email has been sent to your inbox. What’s next? Invite your friends! </p>
+      <p class="text pad-mob-hor pad mar-vert-0">As a Founding Member, you will earn 2X rewards, for a limited time, for all friends that sign up using your link/code.  Give them 6 additional credits when they sign up and earn 12 additional credits for yourself! </p>
+    </mj-text>
+    <mj-divider width="100%" border-width="1px" border-style="solid" border-color="#D8D8D8"/>
+  </mj-column>
+</mj-section>
+<mj-section background-color="#FFFFFF" padding="0 0 0 40px"  text-align="left">
+  <mj-column align="left" padding="0" width="10%">
+    <mj-image padding="15px 0 0 0" src="https://res.cloudinary.com/festivalpass/image/upload/v1568207592/Email/Icons/ico-checkmark-purchase_3x_pukdcd.png" width="30px"></mj-image>
+  </mj-column>
+  <mj-column align="left" padding="0" width="80%">
+    <mj-text align="left" padding="0" font-family="Sofia Bold, Open Sans, sans-serif;" >
+      <p  class="text">A Code to redeem your FREE Propelify ticket has been sent to your inbox!</p>
+    </mj-text>
+  </mj-column>
+</mj-section>
+<mj-section background-color="#FFFFFF" padding="0 0 0 40px"  text-align="left">
+  <mj-column align="left" padding="0" width="10%">
+    <mj-image padding="15px 0 0 0" src="https://res.cloudinary.com/festivalpass/image/upload/v1568207592/Email/Icons/ico-checkmark-purchase_3x_pukdcd.png" width="30px"></mj-image>
+  </mj-column>
+  <mj-column align="left" padding="0" width="80%">
+    <mj-text align="left" padding="0" font-family="Sofia Bold, Open Sans, sans-serif;" >
+      <p  class="text">New Festival and Event Partners joining every day! </p>
+    </mj-text>
+  </mj-column>
+</mj-section>
+<mj-section background-color="#FFFFFF" padding="0 0 0 40px"  text-align="left">
+  <mj-column align="left" padding="0" width="10%">
+    <mj-image padding="15px 0 0 0" src="https://res.cloudinary.com/festivalpass/image/upload/v1568207592/Email/Icons/ico-checkmark-purchase_3x_pukdcd.png" width="30px"></mj-image>
+  </mj-column>
+  <mj-column align="left" padding="0" width="80%">
+    <mj-text align="left" padding="0" font-family="Sofia Bold, Open Sans, sans-serif;" >
+      <p  class="text">You’ve secured founding member status for your life as a member</p>
+    </mj-text>
+  </mj-column>
+</mj-section>
+<mj-section background-color="#FFFFFF" padding="0 0 80px 40px"  text-align="left">
+  <mj-column align="left" padding="0" width="10%">
+    <mj-image padding="25px 0 0 0" src="https://res.cloudinary.com/festivalpass/image/upload/v1568207592/Email/Icons/ico-checkmark-purchase_3x_pukdcd.png" width="30px"></mj-image>
+  </mj-column>
+  <mj-column align="left" padding="0" width="80%">
+    <mj-text align="left" padding="0" font-family="Sofia Bold, Open Sans, sans-serif;" >
+      <p  class="text">$99 charged will be used as a payment for your 1st month subscription, 2nd month will not be billed until 30 days after official launch</p>
+    </mj-text>
+  </mj-column>
+</mj-section>

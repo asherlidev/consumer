@@ -1,0 +1,34 @@
+<mj-section
+  css-class="image-blue"
+  background-url="https://res.cloudinary.com/festivalpass/image/upload/v1566209246/Email/Backgrounds/bg-2_fnqmfu.png"
+  background-repeat="no-repeat"
+  padding="0"
+>
+  <mj-column>
+    <mj-text align="center" padding="63px 0 0 0">
+      <h2
+        class="text-big pad-lg-hor-big pad-mob-hor mar-vert-0"
+        style="font-family: Sofia Medium, Open Sans, sans-serif;"
+      >
+        To get started, we invite you to login to your account here, or click
+        the button below. If you have any questions we're here to help.
+      </h2>
+    </mj-text>
+    <mj-button
+      href="{{ctas.login}}"
+      padding="32px 0px 66px 0px"
+      font-family="Sofia Regular, OpOpen Sans, sans-serif;"
+      font-size="18px"
+      font-weight="700"
+      font-style="normal"
+      line-height="normal"
+      letter-spacing="normal"
+      font-stretch="normal"
+      background-color="#FA2069"
+      color="#FFFFFF"
+      border-radius="16px"
+      inner-padding="14px 18px 15px 18px"
+      >Login to your account
+    </mj-button>
+  </mj-column>
+</mj-section>

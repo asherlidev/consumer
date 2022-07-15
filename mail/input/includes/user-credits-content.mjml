@@ -1,0 +1,26 @@
+<mj-section padding="0">
+  <mj-column padding="0">
+    <mj-image padding="0" src="https://res.cloudinary.com/festivalpass/image/upload/v1566405894/Email/Pictures/iheart-1_xqt0ul.png"></mj-image>
+  </mj-column>
+</mj-section>
+<mj-section css-class="image" background-url="https://res.cloudinary.com/festivalpass/image/upload/v1566310014/Email/Backgrounds/tranactional-top_w1bduy.png" background-repeat="no-repeat" padding="0" background-color="#FFFFFF">
+  <mj-column padding="67px 0 0 0">
+    <mj-text align="center" padding="0" font-family="Sofia Black, Open Sans, sans-serif;" >
+      <h1 class="title-big mar-vert-0">Hi, {{name}}!</h1>
+    </mj-text>
+    <mj-column>
+  </mj-section>
+  <mj-section background-repeat="no-repeat" padding="0" background-color="#FFFFFF">
+    <mj-column padding="40px 0 80px 0">
+      <mj-text align="center" padding="0" font-family="Sofia Regular, Open Sans, sans-serif;" >
+        <p class="text pad-lg-hor-big pad-mob-hor">Get excited! You've just used <span style="font-family: Sofia Bold, Open Sans, sans-serif; "><strong>48 credits</strong></span> to attend <span style="font-family: Sofia Bold, Open Sans, sans-serif; "><strong>iHeart Radio Music Festival</strong></span></p>
+      </mj-text>
+      <mj-divider width="80%" border-width="1px" border-style="solid" border-color="#D8D8D8"/>
+    <mj-text align="center" padding="27px 0 0px 0" font-family="Sofia Regular, Open Sans, sans-serif;"  >
+      <p class="text pad-lg-hor-big pad-mob-hor">To access further details about the event please log into your festivalPass account</p>
+    </mj-text>
+     <mj-button href={{url}} padding="32px 0px 0px 0px" font-family="Sofia Bold, Open Sans, sans-serif;" font-size="18px" font-weight="700" font-style="normal" line-height="normal" letter-spacing="normal" font-stretch="normal" background-color="#FA2069" color="#FFFFFF" border-radius="16px" inner-padding="17px">
+      Log In to festivalPass .com
+    </mj-button>
+  </mj-column>
+</mj-section>

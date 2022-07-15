@@ -1,0 +1,8 @@
+<mj-section background-color="#FFFFFF" background-url="https://res.cloudinary.com/festivalpass/image/upload/v1566310198/Email/Backgrounds/bg-6_uhtnwh.png" background-repeat="no-repeat" align="center">
+  <mj-column>
+    <mj-text align="center" padding="0px 0 17px 0" >
+      <p class="text pad-lg-hor-big pad-mob-hor">
+      A printable receipt with additional order details is available <span style="color: #FA2069; font-weight: bold;"><strong>here</strong></span> and in your <span style="color: #FA2069; font-weight: bold;"><strong>user settings</strong></p></span>
+    </mj-text>
+  </mj-column>
+</mj-section>

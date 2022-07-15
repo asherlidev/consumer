@@ -1,0 +1,132 @@
+import { StyleSheet } from 'react-native';
+const bgShapeHeight = 220;
+const AppStylesheet = StyleSheet.create({
+  pageTitle: {
+    textAlign: 'left',
+    fontWeight: '800',
+    fontSize: 32,
+    marginBottom: 5,
+  },
+  subtitle: {
+    fontSize: 18,
+  },
+  innerViewContainer: {
+    flex: 1,
+    backgroundColor: '#fff',
+  },
+  innerViewPadding: {
+    paddingHorizontal: 20,
+    flex: 1,
+  },
+  inputWrapper: {
+    borderRadius: 20,
+    overflow: 'hidden',
+    marginBottom: 10,
+    justifyContent: 'center',
+  },
+  inputField: {
+    color: '#7d8389',
+    fontSize: 18,
+    padding: 20,
+    backgroundColor: '#f2f2f2',
+    borderRadius: 20,
+  },
+  textareaWrapper: {
+    borderRadius: 20,
+    overflow: 'hidden',
+    minHeight: 100,
+    marginBottom: '1%',
+    flex: 1,
+  },
+  textareaField: {
+    flex: 1,
+    color: '#7d8389',
+    fontSize: 18,
+    paddingTop: 20,
+    minHeight: 100,
+    paddingHorizontal: 20,
+    backgroundColor: '#f2f2f2',
+    borderRadius: 20,
+  },
+  signUpTitle: { color: '#091d2c', fontWeight: '800', fontSize: 32, textAlign: 'center', marginBottom: 5 },
+  signUpLogo: {
+    resizeMode: 'cover',
+    width: 159 * 1.5,
+    height: 48 * 1.5,
+    alignSelf: 'center',
+    top: '33%',
+    position: 'absolute',
+  },
+  headerLink: {
+    position: 'absolute',
+    color: '#fa2069',
+    fontWeight: 'bold',
+    alignSelf: 'flex-end',
+  },
+  headerBackButton: {
+    flex: 1,
+  },
+  headerLinkWrapper: { flex: 1, zIndex: 2, padding: 20 },
+  textLink: {
+    fontWeight: 'bold',
+    color: '#fa2069',
+    textAlign: 'center',
+  },
+  bodyText: {
+    textAlign: 'center',
+    fontSize: 18,
+    marginBottom: 10,
+  },
+  bgShape: { resizeMode: 'cover', width: '100%', height: bgShapeHeight, position: 'absolute', top: 0, right: 0 },
+  bgShapeTwo: { resizeMode: 'cover', width: '100%', height: bgShapeHeight - 8 },
+  loginHeader: {
+    flex: 2,
+  },
+  loginBodySection: {
+    flex: 3,
+    alignContent: 'center',
+    justifyContent: 'center',
+    paddingHorizontal: 20,
+  },
+  errorText: {
+    color: 'red',
+    textAlign: 'center',
+    marginVertical: 3,
+  },
+  horizontalLine: { borderBottomWidth: 1, marginHorizontal: 20, marginVertical: 20, borderBottomColor: '#dbdbdb' },
+  numberedListWrapper: { flex: 1, flexDirection: 'column', marginHorizontal: 20 },
+  numberedListContainer: { flex: 1, flexDirection: 'row', flexWrap: 'wrap', marginVertical: 20 },
+  numberWrap: {
+    width: 40,
+    height: 40,
+    borderWidth: 0.5,
+    borderColor: '#b1b1b1',
+    borderRadius: 100 / 2,
+    justifyContent: 'center',
+    marginRight: 10,
+  },
+  number: { color: '#fa2069', fontWeight: 'bold', fontSize: 18, textAlign: 'center' },
+  numberLabel: { flex: 1, alignContent: 'center', justifyContent: 'center', padding: 5 },
+  modalCloseButton: { alignSelf: 'flex-end', margin: '3%' },
+  shrinkFlex: { flexShrink: 1 },
+  flex: { flex: 1 },
+  flexRow: { flex: 1, flexDirection: 'row', flexWrap: 'wrap' },
+  safeArea: { flex: 1, backgroundColor: '#fff' },
+  selfCenter: { alignSelf: 'center' },
+  goBackLink: {
+    width: '100%',
+    position: 'absolute',
+    alignContent: 'center',
+    alignItems: 'center',
+    justifyContent: 'center',
+    bottom: '20%',
+  },
+  innerPageBackButton: {
+    marginTop: 10,
+    marginBottom: 10,
+  },
+  flexboxCenter: { flex: 1, justifyContent: 'center', alignContent: 'center', alignItems: 'center' },
+  touchableLink: { padding: 20 },
+});
+
+export default AppStylesheet;

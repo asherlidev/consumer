@@ -1,0 +1,30 @@
+<mj-section background-color="#FFFFFF" padding="0" background-url="https://res.cloudinary.com/festivalpass/image/upload/v1586972956/Email/Pictures/FP_Email_Hdr_3.png" background-repeat="no-repeat" background-size="cover" padding="0">
+  <mj-column padding="200px 0">
+    <mj-text align="right" padding="50px 0 0px 0" >
+      <h1 class="title-big mar-vert-0 pad-sm pad-mob-hor" style="font-family: Sofia Bold, Open Sans, sans-serif; font-weight: bold; color: #FA2069; display: none;">Life <em>lived,</em> </h1>
+    </mj-text>
+  </mj-column>
+</mj-section>
+<mj-section background-color="#FFFFFF" align="center" padding="0" background-color="#FFFFFF" background-url="https://res.cloudinary.com/festivalpass/image/upload/v1566310198/Email/Backgrounds/bg-6_uhtnwh.png" background-repeat="no-repeat" align="center" padding="0">
+  <mj-column>
+  <mj-text align="center" padding="27px 0 10px 0" >
+      <p class="text pad pad-mob-hor"> APRIL, festivalPass wants to bring you only the most awesome events, activities, and festivals that are important to YOU.  </p>
+      <p class="text pad pad-mob-hor"> Can you tell us just a bit more about yourself? We promise it will take less than 2 minutes.  </p>
+      <p class="text pad pad-mob-hor"> By providing just a bit more about your preferences, we can tailor your experiences so that you only see the events that you are interested in. </p>
+  </mj-text>
+  <mj-divider width="80%" border-width="1px" border-style="solid" border-color="#D8D8D8"/>
+    <mj-button href="https://festivalpass.com/?inbound=O6PE2Z5er4t1Ue97ZDaQg"  padding="0px" font-family="Sofia Regular, Open Sans, sans-serif;" font-size="18px" font-weight="700" font-style="normal" line-height="normal" letter-spacing="normal" font-stretch="normal" background-color="#FA2069" color="#FFFFFF" border-radius="16px" inner-padding="14px 18px 15px 18px">
+        Tell Us a Bit More
+    </mj-button>
+  </mj-section>
+  <mj-section background-color="#FFFFFF" align="center" padding="20px 0" background-color="#FFFFFF" background-url="https://res.cloudinary.com/festivalpass/image/upload/v1566310198/Email/Backgrounds/bg-6_uhtnwh.png" background-repeat="no-repeat" align="center" padding="0">
+    <mj-column padding="0">
+      <mj-image padding="10px 10px" src= "https://res.cloudinary.com/festivalpass/image/upload/v1586984092/Email/Pictures/4.png"></mj-image>
+    </mj-column>
+    <mj-column padding="0">
+      <mj-image padding="10px 10px" src= "https://res.cloudinary.com/festivalpass/image/upload/v1586984091/Email/Pictures/5.png"></mj-image>
+    </mj-column>
+      <mj-column padding="0">
+      <mj-image padding="10px 10px" src= "https://res.cloudinary.com/festivalpass/image/upload/v1586984091/Email/Pictures/6.png"></mj-image>
+    </mj-column>
+</mj-section>

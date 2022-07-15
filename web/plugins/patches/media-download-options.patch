@@ -1,0 +1,41 @@
+diff --git a/src/index.js b/src/index.js
+index 6252438..14ac798 100644
+--- a/src/index.js
++++ b/src/index.js
+@@ -23,8 +23,9 @@ const singleTypeToTypeInfo = (singleType) => toTypeInfo(singleType, { single: tr
+ 
+ const fetchEntities = async (entityDefinition, ctx) => {
+   const entities = await fetchData(entityDefinition, ctx);
+-  await normalize.downloadMediaFiles(entities, ctx);
+-
++  if (ctx.downloadMedia) {
++    await normalize.downloadMediaFiles(entities, ctx);
++  }
+   return entities;
+ };
+ 
+@@ -55,7 +56,7 @@ const addDynamicZoneFieldsToSchema = ({ type, items, actions, schema }) => {
+ 
+ exports.sourceNodes = async (
+   { store, actions, cache, reporter, getNode, getNodes, createNodeId, createContentDigest, schema },
+-  { apiURL = 'http://localhost:1337', loginData = {}, queryLimit = 100, ...options }
++  { apiURL = 'http://localhost:1337', loginData = {}, queryLimit = 100, downloadMedia = true, ...options }
+ ) => {
+   const { createNode, deleteNode, touchNode } = actions;
+ 
+@@ -68,6 +69,7 @@ exports.sourceNodes = async (
+     createNode,
+     createNodeId,
+     queryLimit,
++    downloadMedia,
+     apiURL,
+     jwtToken,
+     reporter,
+@@ -86,6 +88,7 @@ exports.sourceNodes = async (
+   const types = [...collectionTypes, ...singleTypes];
+ 
+   // Execute the promises
++  if(!downloadMedia) reporter.info("Media download disabled. Images on entities will not be saved locally.")
+   const entities = await Promise.all(types.map((type) => fetchEntities(type, ctx)));
+ 
+   // new created nodes

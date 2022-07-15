@@ -1,0 +1,893 @@
+<mj-wrapper
+  text-align="left"
+  background-color="transparent"
+  padding="0"
+  border-radius="16px 16px 0px 0px"
+  background-url="{{ insert header_promo_heroImage 'default=https://res.cloudinary.com/festivalpass/image/upload/v1569456634/fp-content/default-share-image-5_3x_viqmie.jpg' }}"
+  background-repeat="no-repeat"
+  background-position="center center"
+  background-size="cover"
+  padding="0"
+>
+  <mj-column padding="40px 0px" width="80%">
+    <mj-wrapper padding="20px">
+      <mj-wrapper
+        background-color="#ffffff"
+        border-radius="8px 8px"
+        padding="10px"
+        padding-left="20px"
+      >
+        <mj-text align="left" padding="11px" line-height="1.4">
+          <h1
+            style="
+              font-family: Sofia Bold, Open Sans, sans-serif;
+              font-weight: bold;
+              color: #000;
+              margin: 0px;
+            "
+          >
+            {{ header_promo_title }}
+          </h1>
+        </mj-text>
+      </mj-wrapper>
+
+      <mj-spacer height="10px" />
+
+      {{#if header_promo_content}}
+      <mj-wrapper
+        background-color="#ffffff"
+        border-radius="8px 8px"
+        padding="10px"
+        padding-left="20px"
+      >
+        <mj-text align="left" font-size="18px" padding="11px" line-height="1.4">
+          <p
+            style="
+              font-family: Sofia Regular, Open Sans, sans-serif;
+              color: #000;
+              margin: 0px;
+            "
+          >
+            {{ header_promo_content }}
+          </p>
+        </mj-text>
+      </mj-wrapper>
+      {{/if}}
+
+      <mj-spacer height="10px" />
+
+      <mj-button
+        href="{{header_promo_btn_cta}}"
+        padding="30px 0px 0px 0px"
+        font-family="Sofia Bold, Open Sans, sans-serif;"
+        font-size="18px"
+        font-weight="700"
+        font-style="normal"
+        line-height="normal"
+        letter-spacing="normal"
+        font-stretch="normal"
+        background-color="#FA2069"
+        color="#FFFFFF"
+        border-radius="8px"
+        inner-padding="17px"
+      >
+        {{ header_promo_btn_label }}
+      </mj-button>
+    </mj-wrapper>
+  </mj-column>
+  <mj-column></mj-column>
+</mj-wrapper>
+
+<!-- Nearby Events -->
+<mj-section background-color="#FFFFFF" padding="20px">
+  <mj-text>
+    <h1>
+      Nearby {{ user_location }}
+      <span style="font-size: 14px; color: #fa2069;"
+        ><a href="{{update_location_cta}}">Update Location</a></span
+      >
+    </h1>
+  </mj-text>
+</mj-section>
+
+<mj-section background-color="#FFFFFF" align="left" padding="0">
+  {{#if nearby_event_1.name}}
+  <mj-column padding="0px 25px">
+    <mj-section padding="0px" padding-top="0px" border-radius="16px;">
+      <mj-raw>
+        <div
+          style="
+            width: 100%;
+            position: relative;
+            margin: 0;
+            padding: 0;
+            height: 200px;
+            background-color: #2c2c2c;
+            border-radius: 16px;
+            background-image: url({{ insert nearby_event_1.cover_image 'default=https://res.cloudinary.com/festivalpass/image/upload/v1569456634/fp-content/default-share-image-5_3x_viqmie.jpg' }});
+            background-size: cover;
+            width: 100%;
+          "
+        >
+          <div
+            style="
+              margin: 10px;
+              position: absolute;
+              top: 2px;
+              left: 2px;
+              font-size: 12px;
+              letter-spacing: 0.2em;
+              font-weight: 700;
+              background-color: #fa2069;
+              padding: 8px;
+              border-radius: 8px;
+              color: #ffffff;
+              max-width: 150px;
+              display: block;
+            "
+          >
+            <img
+              style="
+                padding-right: 0px;
+                height: 18px;
+                width: 16px;
+                vertical-align: middle;
+              "
+              src="https://res.cloudinary.com/festivalpass/image/upload/q_auto/v1613307865/fp-content/icons/fp_fire_icon_l4pgd4.png"
+            />
+            <span
+              style="
+                font-family: Sofia Bold, Open Sans, sans-serif;
+                font-weight: bold;
+                margin-top: 0px;
+                padding-top: 0px;
+                vertical-align: middle;
+              "
+              >FESTIVAL PASS</span
+            >
+          </div>
+        </div>
+      </mj-raw>
+    </mj-section>
+    <mj-text align="left" padding="20px 0px 10px 0px" font-size="14px">
+      <h2 class="mar-vert-0">
+        {{ nearby_event_1.name }}
+      </h2>
+    </mj-text>
+    <mj-text align="left" padding="0px 20px 20px 0px">
+      <p class="text mar-vert-0" style="opacity: 0.7;">
+        {{ nearby_event_1.location }}
+      </p>
+      <p class="text mar-vert-0" style="opacity: 0.7;">
+        {{ nearby_event_1.start }}
+      </p>
+    </mj-text>
+  </mj-column>
+  {{/if}} {{#if nearby_event_2.name}}
+  <mj-column padding="0px 25px">
+    <mj-section padding="0px" padding-top="0px" border-radius="16px;">
+      <mj-raw>
+        <div
+          style="
+            position: relative;
+            margin: 0;
+            padding: 0;
+            height: 200px;
+            background-color: #2c2c2c;
+            border-radius: 16px;
+            background-image: url({{ insert nearby_event_2.cover_image 'default=https://res.cloudinary.com/festivalpass/image/upload/v1569456634/fp-content/default-share-image-5_3x_viqmie.jpg' }});
+            background-size: cover;
+            width: 100%;
+          "
+        >
+          <div
+            style="
+              margin: 10px;
+              position: absolute;
+              top: 2px;
+              left: 2px;
+              font-size: 12px;
+              letter-spacing: 0.2em;
+              font-weight: 700;
+              background-color: #fa2069;
+              padding: 8px;
+              border-radius: 8px;
+              color: #ffffff;
+              max-width: 150px;
+              display: block;
+            "
+          >
+            <img
+              style="
+                padding-right: 0px;
+                height: 18px;
+                width: 16px;
+                vertical-align: middle;
+              "
+              src="https://res.cloudinary.com/festivalpass/image/upload/q_auto/v1613307865/fp-content/icons/fp_fire_icon_l4pgd4.png"
+            />
+            <span
+              style="
+                font-family: Sofia Bold, Open Sans, sans-serif;
+                font-weight: bold;
+                margin-top: 0px;
+                padding-top: 0px;
+                vertical-align: middle;
+              "
+              >FESTIVAL PASS</span
+            >
+          </div>
+        </div>
+      </mj-raw>
+    </mj-section>
+    <mj-text align="left" padding="20px 0px 10px 0px" font-size="14px">
+      <h2 class="mar-vert-0">
+        {{ nearby_event_2.name }}
+      </h2>
+    </mj-text>
+    <mj-text align="left" padding="0px 20px 20px 0px">
+      <p class="text mar-vert-0" style="opacity: 0.7;">
+        {{ nearby_event_2.location }}
+      </p>
+      <p class="text mar-vert-0" style="opacity: 0.7;">
+        {{ nearby_event_2.start }}
+      </p>
+    </mj-text>
+  </mj-column>
+  {{/if}}
+</mj-section>
+
+<mj-section background-color="#FFFFFF" align="left" padding="0">
+  {{#if nearby_event_3.name}}
+  <mj-column padding="0px 25px">
+    <mj-section padding="0px" padding-top="0px" border-radius="16px;">
+      <mj-raw>
+        <div
+          style="
+            position: relative;
+            margin: 0;
+            padding: 0;
+            height: 200px;
+            background-color: #2c2c2c;
+            border-radius: 16px;
+            background-image: url({{ insert nearby_event_3.cover_image 'default=https://res.cloudinary.com/festivalpass/image/upload/v1569456634/fp-content/default-share-image-5_3x_viqmie.jpg' }});
+            background-size: cover;
+            width: 100%;
+          "
+        >
+          <div
+            style="
+              margin: 10px;
+              position: absolute;
+              top: 2px;
+              left: 2px;
+              font-size: 12px;
+              letter-spacing: 0.2em;
+              font-weight: 700;
+              background-color: #fa2069;
+              padding: 8px;
+              border-radius: 8px;
+              color: #ffffff;
+              max-width: 150px;
+              display: block;
+            "
+          >
+            <img
+              style="
+                padding-right: 0px;
+                height: 18px;
+                width: 16px;
+                vertical-align: middle;
+              "
+              src="https://res.cloudinary.com/festivalpass/image/upload/q_auto/v1613307865/fp-content/icons/fp_fire_icon_l4pgd4.png"
+            />
+            <span
+              style="
+                font-family: Sofia Bold, Open Sans, sans-serif;
+                font-weight: bold;
+                margin-top: 0px;
+                padding-top: 0px;
+                vertical-align: middle;
+              "
+              >FESTIVAL PASS</span
+            >
+          </div>
+        </div>
+      </mj-raw>
+    </mj-section>
+    <mj-text align="left" padding="20px 0px 10px 0px" font-size="14px">
+      <h2 class="mar-vert-0">
+        {{ nearby_event_3.name }}
+      </h2>
+    </mj-text>
+    <mj-text align="left" padding="0px 20px 20px 0px">
+      <p class="text mar-vert-0" style="opacity: 0.7;">
+        {{ nearby_event_3.location }}
+      </p>
+      <p class="text mar-vert-0" style="opacity: 0.7;">
+        {{ nearby_event_3.start }}
+      </p>
+    </mj-text>
+  </mj-column>
+  {{/if}} {{#if nearby_event_4.name}}
+  <mj-column padding="0px 25px">
+    <mj-section padding="0px" padding-top="0px" border-radius="16px;">
+      <mj-raw>
+        <div
+          style="
+            position: relative;
+            margin: 0;
+            padding: 0;
+            height: 200px;
+            background-color: #2c2c2c;
+            border-radius: 16px;
+            background-image: url({{ insert nearby_event_4.cover_image 'default=https://res.cloudinary.com/festivalpass/image/upload/v1569456634/fp-content/default-share-image-5_3x_viqmie.jpg' }});
+            background-size: cover;
+            width: 100%;
+          "
+        >
+          <div
+            style="
+              margin: 10px;
+              position: absolute;
+              top: 2px;
+              left: 2px;
+              font-size: 12px;
+              letter-spacing: 0.2em;
+              font-weight: 700;
+              background-color: #fa2069;
+              padding: 8px;
+              border-radius: 8px;
+              color: #ffffff;
+              max-width: 150px;
+              display: block;
+            "
+          >
+            <img
+              style="
+                padding-right: 0px;
+                height: 18px;
+                width: 16px;
+                vertical-align: middle;
+              "
+              src="https://res.cloudinary.com/festivalpass/image/upload/q_auto/v1613307865/fp-content/icons/fp_fire_icon_l4pgd4.png"
+            />
+            <span
+              style="
+                font-family: Sofia Bold, Open Sans, sans-serif;
+                font-weight: bold;
+                margin-top: 0px;
+                padding-top: 0px;
+                vertical-align: middle;
+              "
+              >FESTIVAL PASS</span
+            >
+          </div>
+        </div>
+      </mj-raw>
+    </mj-section>
+    <mj-text align="left" padding="20px 0px 10px 0px" font-size="14px">
+      <h2 class="mar-vert-0">
+        {{ nearby_event_4.name }}
+      </h2>
+    </mj-text>
+    <mj-text align="left" padding="0px 20px 20px 0px">
+      <p class="text mar-vert-0" style="opacity: 0.7;">
+        {{ nearby_event_4.location }}
+      </p>
+      <p class="text mar-vert-0" style="opacity: 0.7;">
+        {{ nearby_event_4.start }}
+      </p>
+    </mj-text>
+  </mj-column>
+  {{/if}}
+</mj-section>
+
+<mj-section background-color="#FFFFFF" padding="20px" text-align="center">
+  <mj-column>
+    <mj-button
+      href="{{view_all_cta_1}}"
+      width="200px"
+      padding="30px 0px 0px 0px"
+      font-family="Sofia Bold, Open Sans, sans-serif;"
+      font-size="18px"
+      font-weight="700"
+      font-style="normal"
+      line-height="normal"
+      letter-spacing="normal"
+      font-stretch="normal"
+      background-color="#FFFFFF"
+      color="#091D2C"
+      border="solid 1px #091D2C"
+      border-radius="8px"
+      inner-padding="17px"
+    >
+      View All
+    </mj-button>
+  </mj-column>
+</mj-section>
+
+<!-- Recently Added Events -->
+<mj-section background-color="#FFFFFF" padding="20px">
+  <mj-text>
+    <h1>
+      Recently Added
+    </h1>
+  </mj-text>
+</mj-section>
+
+<mj-section background-color="#FFFFFF" align="left" padding="0">
+  {{#if recent_event_1.name}}
+  <mj-column padding="0px 25px">
+    <mj-section padding="0px" padding-top="0px" border-radius="16px;">
+      <mj-raw>
+        <div
+          style="
+            position: relative;
+            margin: 0;
+            padding: 0;
+            height: 200px;
+            background-color: #2c2c2c;
+            border-radius: 16px;
+            background-image: url({{ insert recent_event_1.cover_image 'default=https://res.cloudinary.com/festivalpass/image/upload/v1569456634/fp-content/default-share-image-5_3x_viqmie.jpg' }});
+            background-size: cover;
+            width: 100%;
+          "
+        >
+          <div
+            style="
+              margin: 10px;
+              position: absolute;
+              top: 2px;
+              left: 2px;
+              font-size: 12px;
+              letter-spacing: 0.2em;
+              font-weight: 700;
+              background-color: #fa2069;
+              padding: 8px;
+              border-radius: 8px;
+              color: #ffffff;
+              max-width: 150px;
+              display: block;
+            "
+          >
+            <img
+              style="
+                padding-right: 0px;
+                height: 18px;
+                width: 16px;
+                vertical-align: middle;
+              "
+              src="https://res.cloudinary.com/festivalpass/image/upload/q_auto/v1613307865/fp-content/icons/fp_fire_icon_l4pgd4.png"
+            />
+            <span
+              style="
+                font-family: Sofia Bold, Open Sans, sans-serif;
+                font-weight: bold;
+                margin-top: 0px;
+                padding-top: 0px;
+                vertical-align: middle;
+              "
+              >FESTIVAL PASS</span
+            >
+          </div>
+        </div>
+      </mj-raw>
+    </mj-section>
+    <mj-text align="left" padding="20px 0px 10px 0px" font-size="14px">
+      <h2 class="mar-vert-0">
+        {{ recent_event_1.name}}
+      </h2>
+    </mj-text>
+    <mj-text align="left" padding="0px 20px 20px 0px">
+      <p class="text mar-vert-0" style="opacity: 0.7;">
+        {{ recent_event_1.location }}
+      </p>
+      <p class="text mar-vert-0" style="opacity: 0.7;">
+        {{ recent_event_1.start }}
+      </p>
+    </mj-text>
+  </mj-column>
+  {{/if}} {{#if recent_event_2.name}}
+  <mj-column padding="0px 25px">
+    <mj-section padding="0px" padding-top="0px" border-radius="16px;">
+      <mj-raw>
+        <div
+          style="
+            position: relative;
+            margin: 0;
+            padding: 0;
+            height: 200px;
+            background-color: #2c2c2c;
+            border-radius: 16px;
+            background-image: url({{ insert recent_event_2.cover_image 'default=https://res.cloudinary.com/festivalpass/image/upload/v1569456634/fp-content/default-share-image-5_3x_viqmie.jpg' }});
+            background-size: cover;
+            width: 100%;
+          "
+        >
+          <div
+            style="
+              margin: 10px;
+              position: absolute;
+              top: 2px;
+              left: 2px;
+              font-size: 12px;
+              letter-spacing: 0.2em;
+              font-weight: 700;
+              background-color: #fa2069;
+              padding: 8px;
+              border-radius: 8px;
+              color: #ffffff;
+              max-width: 150px;
+              display: block;
+            "
+          >
+            <img
+              style="
+                padding-right: 0px;
+                height: 18px;
+                width: 16px;
+                vertical-align: middle;
+              "
+              src="https://res.cloudinary.com/festivalpass/image/upload/q_auto/v1613307865/fp-content/icons/fp_fire_icon_l4pgd4.png"
+            />
+            <span
+              style="
+                font-family: Sofia Bold, Open Sans, sans-serif;
+                font-weight: bold;
+                margin-top: 0px;
+                padding-top: 0px;
+                vertical-align: middle;
+              "
+              >FESTIVAL PASS</span
+            >
+          </div>
+        </div>
+      </mj-raw>
+    </mj-section>
+    <mj-text align="left" padding="20px 0px 10px 0px" font-size="14px">
+      <h2 class="mar-vert-0">
+        {{ recent_event_2.name }}
+      </h2>
+    </mj-text>
+    <mj-text align="left" padding="0px 20px 20px 0px">
+      <p class="text mar-vert-0" style="opacity: 0.7;">
+        {{ recent_event_2.location }}
+      </p>
+      <p class="text mar-vert-0" style="opacity: 0.7;">
+        {{ recent_event_2.start }}
+      </p>
+    </mj-text>
+  </mj-column>
+  {{/if}}
+</mj-section>
+
+<mj-section background-color="#FFFFFF" align="left" padding="0">
+  {{#if recent_event_3.name}}
+  <mj-column padding="0px 25px">
+    <mj-section padding="0px" padding-top="0px" border-radius="16px;">
+      <mj-raw>
+        <div
+          style="
+            position: relative;
+            margin: 0;
+            padding: 0;
+            height: 200px;
+            background-color: #2c2c2c;
+            border-radius: 16px;
+            background-image: url({{ insert recent_event_3.cover_image 'default=https://res.cloudinary.com/festivalpass/image/upload/v1569456634/fp-content/default-share-image-5_3x_viqmie.jpg' }});
+            background-size: cover;
+            width: 100%;
+          "
+        >
+          <div
+            style="
+              margin: 10px;
+              position: absolute;
+              top: 2px;
+              left: 2px;
+              font-size: 12px;
+              letter-spacing: 0.2em;
+              font-weight: 700;
+              background-color: #fa2069;
+              padding: 8px;
+              border-radius: 8px;
+              color: #ffffff;
+              max-width: 150px;
+              display: block;
+            "
+          >
+            <img
+              style="
+                padding-right: 0px;
+                height: 18px;
+                width: 16px;
+                vertical-align: middle;
+              "
+              src="https://res.cloudinary.com/festivalpass/image/upload/q_auto/v1613307865/fp-content/icons/fp_fire_icon_l4pgd4.png"
+            />
+            <span
+              style="
+                font-family: Sofia Bold, Open Sans, sans-serif;
+                font-weight: bold;
+                margin-top: 0px;
+                padding-top: 0px;
+                vertical-align: middle;
+              "
+              >FESTIVAL PASS</span
+            >
+          </div>
+        </div>
+      </mj-raw>
+    </mj-section>
+    <mj-text align="left" padding="20px 0px 10px 0px" font-size="14px">
+      <h2 class="mar-vert-0">
+        {{ recent_event_3.name }}
+      </h2>
+    </mj-text>
+    <mj-text align="left" padding="0px 20px 20px 0px">
+      <p class="text mar-vert-0" style="opacity: 0.7;">
+        {{ recent_event_3.location }}
+      </p>
+      <p class="text mar-vert-0" style="opacity: 0.7;">
+        {{ recent_event_3.start }}
+      </p>
+    </mj-text>
+  </mj-column>
+  {{/if}} {{#if recent_event_4.name}}
+  <mj-column padding="0px 25px">
+    <mj-section padding="0px" padding-top="0px" border-radius="16px;">
+      <mj-raw>
+        <div
+          style="
+            position: relative;
+            margin: 0;
+            padding: 0;
+            height: 200px;
+            background-color: #2c2c2c;
+            border-radius: 16px;
+            background-image: url({{ insert recent_event_4.cover_image 'default=https://res.cloudinary.com/festivalpass/image/upload/v1569456634/fp-content/default-share-image-5_3x_viqmie.jpg' }});
+            background-size: cover;
+            width: 100%;
+          "
+        >
+          <div
+            style="
+              margin: 10px;
+              position: absolute;
+              top: 2px;
+              left: 2px;
+              font-size: 12px;
+              letter-spacing: 0.2em;
+              font-weight: 700;
+              background-color: #fa2069;
+              padding: 8px;
+              border-radius: 8px;
+              color: #ffffff;
+              max-width: 150px;
+              display: block;
+            "
+          >
+            <img
+              style="
+                padding-right: 0px;
+                height: 18px;
+                width: 16px;
+                vertical-align: middle;
+              "
+              src="https://res.cloudinary.com/festivalpass/image/upload/q_auto/v1613307865/fp-content/icons/fp_fire_icon_l4pgd4.png"
+            />
+            <span
+              style="
+                font-family: Sofia Bold, Open Sans, sans-serif;
+                font-weight: bold;
+                margin-top: 0px;
+                padding-top: 0px;
+                vertical-align: middle;
+              "
+              >FESTIVAL PASS</span
+            >
+          </div>
+        </div>
+      </mj-raw>
+    </mj-section>
+    <mj-text align="left" padding="20px 0px 10px 0px" font-size="14px">
+      <h2 class="mar-vert-0">
+        {{ recent_event_4.name }}
+      </h2>
+    </mj-text>
+    <mj-text align="left" padding="0px 20px 20px 0px">
+      <p class="text mar-vert-0" style="opacity: 0.7;">
+        {{ recent_event_4.location }}
+      </p>
+      <p class="text mar-vert-0" style="opacity: 0.7;">
+        {{ recent_event_4.start }}
+      </p>
+    </mj-text>
+  </mj-column>
+  {{/if}}
+</mj-section>
+
+<mj-section background-color="#FFFFFF" padding="20px" text-align="center">
+  <mj-column>
+    <mj-button
+      href="{{view_all_cta_2}}"
+      width="200px"
+      padding="30px 0px 0px 0px"
+      font-family="Sofia Bold, Open Sans, sans-serif;"
+      font-size="18px"
+      font-weight="700"
+      font-style="normal"
+      line-height="normal"
+      letter-spacing="normal"
+      font-stretch="normal"
+      background-color="#FFFFFF"
+      color="#091D2C"
+      border="solid 1px #091D2C"
+      border-radius="8px"
+      inner-padding="17px"
+    >
+      View All
+    </mj-button>
+  </mj-column>
+</mj-section>
+
+<!-- Podcasts Section -->
+<mj-section background-color="#ffffff" padding="20px">
+  <mj-wrapper
+    background-color="#2069FA"
+    padding="20px"
+    padding-top="20px"
+    border-radius="16px"
+  >
+    <mj-column padding="10px" width="40%" vertical-align="top">
+      <mj-image
+        border-radius="16px"
+        width="200px"
+        height="200px"
+        background-color="#091D2C"
+        padding="0px"
+        src="{{ insert latest_podcast.hero_image 'default=https://res.cloudinary.com/festivalpass/image/upload/q_auto/v1613587879/fp-content/fp-stories-bg_h8v6xz.png' }}"
+      />
+    </mj-column>
+    <mj-column width="60%" padding="0px" vertical-align="middle">
+      <mj-text align="left" padding="0px" font-size="22px" line-height="1.4">
+        <h1
+          style="
+            font-family: Sofia Bold, Open Sans, sans-serif;
+            font-weight: bold;
+            color: #ffffff;
+            margin: 0px;
+          "
+        >
+          This Week’s festivalpass Stories Podcast
+        </h1>
+      </mj-text>
+      <mj-text align="left" font-size="25px" padding="0px" line-height="1.4">
+        <p
+          style="
+            font-family: Sofia Regular, Open Sans, sans-serif;
+            color: #ffffff;
+            opacity: 0.8;
+            margin: 0px;
+          "
+        >
+          {{ latest_podcast.title }}
+        </p>
+      </mj-text>
+      <mj-wrapper>
+        <mj-button
+          href="{{ latest_podcast.url }}"
+          padding="0px"
+          font-family="Sofia Bold, Open Sans, sans-serif;"
+          font-size="22px"
+          font-weight="700"
+          font-style="normal"
+          line-height="normal"
+          letter-spacing="normal"
+          font-stretch="normal"
+          background-color="#091D2C"
+          color="#FFFFFF"
+          border-radius="8px"
+          inner-padding="20px"
+          width="180px"
+          padding-left="20px;"
+          align="center"
+          text-align="center"
+          veritical-align="middle"
+        >
+          <mj-text align="center" padding-right="4px">PLAY NOW</mj-text>
+          <mj-raw>
+            <img
+              src="https://res.cloudinary.com/festivalpass/image/upload/q_auto/v1613584787/fp-content/icons/Polygon_2_o4olyd.png"
+              height="15px"
+              width="15px"
+            />
+          </mj-raw>
+        </mj-button>
+      </mj-wrapper>
+    </mj-column>
+    <mj-spacer height="20px" />
+  </mj-wrapper>
+</mj-section>
+
+<!-- SubFooter Promo -->
+
+<mj-wrapper
+  text-align="left"
+  background-color="transparent"
+  padding="0"
+  background-url="{{ insert footer_promo_heroImage 'default=https://res.cloudinary.com/festivalpass/image/upload/v1569456634/fp-content/default-share-image-5_3x_viqmie.jpg' }}"
+  background-repeat="no-repeat"
+  background-position="center center"
+  background-size="cover"
+  padding="0"
+>
+  <mj-column padding="40px 0px" width="80%">
+    <mj-wrapper padding="20px">
+      <mj-wrapper
+        background-color="#ffffff"
+        border-radius="8px 8px"
+        padding="10px"
+        padding-left="20px"
+      >
+        <mj-text align="left" padding="11px" line-height="1.4">
+          <h1
+            style="
+              font-family: Sofia Bold, Open Sans, sans-serif;
+              font-weight: bold;
+              color: #000;
+              margin: 0px;
+            "
+          >
+            {{ footer_promo_title }}
+          </h1>
+        </mj-text>
+      </mj-wrapper>
+
+      <mj-spacer height="10px" />
+
+      {{#if footer_promo_content}}
+      <mj-wrapper
+        background-color="#ffffff"
+        border-radius="8px 8px"
+        padding="10px"
+        padding-left="20px"
+      >
+        <mj-text align="left" font-size="18px" padding="11px" line-height="1.4">
+          <p
+            style="
+              font-family: Sofia Regular, Open Sans, sans-serif;
+              color: #000;
+              margin: 0px;
+            "
+          >
+            {{footer_promo_content}}
+          </p>
+        </mj-text>
+      </mj-wrapper>
+      {{/if}}
+
+      <mj-spacer height="10px" />
+
+      <mj-button
+        href="{{footer_promo_btn_cta}}"
+        padding="30px 0px 0px 0px"
+        font-family="Sofia Bold, Open Sans, sans-serif;"
+        font-size="18px"
+        font-weight="700"
+        font-style="normal"
+        line-height="normal"
+        letter-spacing="normal"
+        font-stretch="normal"
+        background-color="#FA2069"
+        color="#FFFFFF"
+        border-radius="8px"
+        inner-padding="17px"
+      >
+        {{ footer_promo_btn_label }}
+      </mj-button>
+    </mj-wrapper>
+  </mj-column>
+  <mj-column></mj-column>
+</mj-wrapper>

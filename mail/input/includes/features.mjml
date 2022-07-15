@@ -1,0 +1,40 @@
+<mj-section padding="67px 0 0 0" background-color="#FFFFFF">
+  <mj-column padding="0px" height="273px" >
+      <mj-text align="center" padding="0 0 0 0" >
+        <h2 class="text-big mar-vert-0">As a free member you are able to:</h2>
+      </mj-text>
+  </mj-column>
+</mj-section>
+
+<mj-section padding="44px 32px 0 32px" background-color="#FFFFFF">
+  <mj-column padding="22px 45px 0 45px">
+    <mj-image width="29px" src="https://res.cloudinary.com/festivalpass/image/upload/v1566561780/Email/Icons/ico-friends_rwfrpi.png"></mj-image>
+    <mj-text align="center" padding="0 0 0 0">
+      <p class="text mar-vert-0">Earn credits for referring your friends that join as paid members</p>
+    </mj-text>
+  </mj-column>
+  <mj-column padding="22px 45px 0 45px">
+    <mj-image width="26px" src="https://res.cloudinary.com/festivalpass/image/upload/v1565960575/Email/Icons/ico-instagram_vslyja.png"></mj-image>
+    <mj-text align="center" padding="0 0 0 0" >
+      <p class="text mar-vert-0">Link your Instagram to your account</p>
+    </mj-text>
+  </mj-column>
+</mj-section>
+
+<mj-section padding="22px 32px 0 32px" background-color="#FFFFFF">
+  <mj-column padding="22px 45px">
+    <mj-image width="21px" src="https://res.cloudinary.com/festivalpass/image/upload/v1565960878/Email/Icons/ico-iphone_r7zanl.png"></mj-image>
+    <mj-text align="center" padding="0 0 0 0" >
+      <p class="text mar-vert-0">Browse the website and mobile app when launched</p>
+    </mj-text>
+  </mj-column>
+  <mj-column padding="22px 45px">
+    <mj-image width="33px" src="https://res.cloudinary.com/festivalpass/image/upload/v1565960575/Email/Icons/ico-fireworks_wkcogv.png"></mj-image>
+    <mj-text align="center" padding="0 0 0 0" color="#091D2C" font-family="Lato" font-size="16px" font-weight="normal" font-style="normal" line-height="1.63" letter-spacing="normal" font-stretch="normal" >
+      <p class="text mar-vert-0">Discover new festivals and events locally and globally</p>
+
+    </mj-text>
+  </mj-column>
+</mj-section>
+
+

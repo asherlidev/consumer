@@ -1,0 +1,63 @@
+<mj-section padding="60px" background-color="#091D2C">
+  <mj-text
+    color="#FFFFFF"
+    align="center"
+    padding-bottom="0px"
+    letter-spacing="0.21em"
+    font-size="10px"
+    text-transform="uppercase"
+  >
+    <h2>Follow Us</h2>
+  </mj-text>
+  <mj-group css-class="footer" padding="67px 0px 38px 0px">
+    <mj-column width="30%" align="middle">
+      <mj-image
+        href="https://www.facebook.com/getfestivalpass"
+        width="36px"
+        padding="0"
+        src="https://res.cloudinary.com/festivalpass/image/upload/q_auto/v1613410682/fp-content/icons/Icon__Facebook_caiiak.png"
+      ></mj-image>
+    </mj-column>
+    <mj-column width="30%" align="middle">
+      <mj-image
+        href="https://www.instagram.com/festival_pass"
+        width="36px"
+        padding="0"
+        src="https://res.cloudinary.com/festivalpass/image/upload/q_auto/v1613410682/fp-content/icons/Icon__Instagram_ibjj5c.png"
+      ></mj-image>
+    </mj-column>
+    <mj-column width="30%" align="middle">
+      <mj-image
+        href="https://twitter.com/pass_festival"
+        width="36px"
+        padding="0"
+        src="https://res.cloudinary.com/festivalpass/image/upload/q_auto/v1613410682/fp-content/icons/Icon__Twitter_tfmenw.png"
+      ></mj-image>
+    </mj-column>
+  </mj-group>
+</mj-section>
+
+<mj-section padding-top="5px" background-color="#091D2C">
+  <mj-text
+    color="#FFFFFF"
+    align="center"
+    padding-bottom="0px"
+    letter-spacing="0.21em"
+    font-size="10px"
+    text-transform="uppercase"
+  >
+    <a href="{{user_recommendations_cta}}" style="color: #ffffff;"
+      ><p>Manage your preferences</p></a
+    >
+  </mj-text>
+</mj-section>
+
+<mj-section padding-top="20px" background-color="#F5F5F5">
+  <mj-column padding="0">
+    <mj-text align="center" padding="0 0 0 0" font-family="Open Sans">
+      <p class="text mar-vert-0" style="font-size: 12px; opacity: 0.7;">
+        festvalPass Inc, 495A Henry St #1073 Brooklyn, NY 11231 USA
+      </p>
+    </mj-text>
+  </mj-column>
+</mj-section>

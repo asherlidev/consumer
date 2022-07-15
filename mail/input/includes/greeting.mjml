@@ -1,0 +1,10 @@
+<mj-section css-class="image" background-url="https://res.cloudinary.com/festivalpass/image/upload/v1566209247/Email/Backgrounds/bg-1_vm64qf.png" background-repeat="no-repeat" padding="0">
+  <mj-column padding="66px 0 72px 0">
+    <mj-text align="center" font-family="Sofia Black, Open Sans, sans-serif;" >
+      <h1 class="title-big mar-vert-0">Hi, {{name}}!</h1>
+    </mj-text>
+    <mj-text align="center" padding="0">
+      <p class="text mar-vert-0 pad-sm pad-mob-hor ">We would like to welcome you to the our community. we are committed to bringing you and the community to a place to find your tribe and connected with others that Live. Life. Live.</p>
+    </mj-text>
+  </mj-column>
+</mj-section>

@@ -1,0 +1,27 @@
+<mj-section background-color="#FFFFFF" background-url="https://res.cloudinary.com/festivalpass/image/upload/v1566310198/Email/Backgrounds/bg-6_uhtnwh.png" background-repeat="no-repeat" align="center">
+  <mj-column>
+    <mj-text align="center" padding="27px 0 17px 0" >
+      <h1 class="title-big mar-vert-0">Hi, Danielle!</h1>
+      <p class="text pad-lg-hor-big pad-mob-hor">The best event experiences are shared with friends!</p>
+    </mj-text>
+  </mj-column>
+</mj-section>
+<mj-section padding="0px">
+  <mj-column>
+    <mj-image padding="0px" src="https://res.cloudinary.com/festivalpass/image/upload/v1565960577/Email/Pictures/celebration-colorful-concert-2513605_cezsqk.jpg"></mj-image>
+  </mj-column>
+</mj-section>
+<mj-section background-color="#FFFFFF" background-url="https://res.cloudinary.com/festivalpass/image/upload/v1566310198/Email/Backgrounds/bg-6_uhtnwh.png" background-repeat="no-repeat" align="center" padding="0">
+  <mj-column padding="67px 0 80px 0">
+    <mj-text align="center" padding="0px 0 17px 0" >
+      <p class="text pad-lg-hor-big pad-mob-hor">Share your unique code <strong>LJIQNSAS</strong> and get FREE credits so you can attend your favorite festivals together</p>
+    </mj-text>
+      <mj-divider width="80%" border-width="1px" border-style="solid" border-color="#D8D8D8"/>
+    <mj-text align="center" padding="27px 0 17px 0" >
+      <h3 class="text-medium pad-lg-hor-big pad-mob-hor mar-vert-0">For every friend you refer, you'll both receive</h3>
+      <h2 class="text-big pad-lg-hor-big pad-mob-hor">6 free credits</h2>
+    </mj-text>
+    <mj-button padding="0px" font-family="Lato" font-size="18px" font-weight="700" font-style="normal" line-height="normal" letter-spacing="normal" font-stretch="normal" background-color="#FA2069" color="#FFFFFF" border-radius="16px" inner-padding="14px 18px 15px 18px">Invite Friends
+    </mj-button>
+  </mj-column>
+</mj-section>

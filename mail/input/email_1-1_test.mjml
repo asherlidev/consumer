@@ -1,0 +1,28 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      @media (max-width: 480px) { .image, .image > div > table {
+      background:url(https://res.cloudinary.com/festivalpass/image/upload/v1567081511/Email/Backgrounds/bg-1-mobile_ruhrsn.png)
+      round !important } }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-section
+      css-class="image"
+      background-url="https://res.cloudinary.com/festivalpass/image/upload/v1566209247/Email/Backgrounds/bg-1_vm64qf.png"
+      background-repeat="no-repeat"
+    >
+      <mj-column>
+        <mj-divider border-color="#F45E43"></mj-divider>
+
+        <mj-text
+          font-size="20px"
+          padding-bottom="200px"
+          color="#F45E43"
+          font-family="helvetica"
+          >Hello World</mj-text
+        >
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

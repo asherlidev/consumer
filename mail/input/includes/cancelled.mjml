@@ -1,0 +1,52 @@
+<mj-section background-color="#FFFFFF" padding="0">
+  <mj-column padding="66px 0 80px 0">
+    <mj-text align="left" padding="0px 0 17px 0">
+      <h1 class="title-big pad pad-mob-hor mar-vert-0">
+        We're sad to see you go!
+      </h1>
+      <p class="text pad pad-mob-hor">
+        Hi Danielle! We're confirming that your festivalPass
+        <strong>subscription has been cancelled</strong>
+      </p>
+    </mj-text>
+    <mj-divider
+      width="80%"
+      border-width="1px"
+      border-style="solid"
+      border-color="#D8D8D8"
+    />
+    <mj-text align="left" padding="27px 0 0px 0">
+      <h3 class="text-medium pad pad-mob-hor mar-vert-0">
+        Your subscription is active through
+      </h3>
+      <h2 class="text-big pad pad-mob-hor mar-vert-0">August 31, 2019</h2>
+    </mj-text>
+    <mj-text align="left" padding="27px 0 17px 0">
+      <p class="text pad pad-mob-hor">
+        You’ll still be able to use your remaining credits until August 31, 2019
+        but will not be charged moving forward.
+      </p>
+      <p class="text pad pad-mob-hor">
+        We hop you decide to come back soon and enjoy all the events
+        festivalPass has to offer. If you change your mind and would like to
+        reactivate your subscription, you can do so at any time!
+      </p>
+    </mj-text>
+    <mj-button
+      align="left"
+      padding="0 48px"
+      font-family="Lato"
+      font-size="18px"
+      font-weight="700"
+      font-style="normal"
+      line-height="normal"
+      letter-spacing="normal"
+      font-stretch="normal"
+      background-color="#FA2069"
+      color="#FFFFFF"
+      border-radius="16px"
+      inner-padding="14px 18px 15px 18px"
+      >Reactivate Now
+    </mj-button>
+  </mj-column>
+</mj-section>

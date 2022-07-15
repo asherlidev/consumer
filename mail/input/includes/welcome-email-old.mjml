@@ -1,0 +1,58 @@
+<mj-section css-class="image" background-url="https://res.cloudinary.com/festivalpass/image/upload/v1586980332/Email/Pictures/FP_Email_Hdr_1.png" background-repeat="no-repeat" padding="0" background-color="#FFFFFF">
+  <mj-column>
+    <mj-text align="center" padding="66px 0 0px 0" >
+      <h1 class="pad-lg-hor-big title-big mar-vert-0 pad-mob-hor">Thank You for signing up for festivalPass! Peek Inside for more...</h1>
+      <h1 class="pad-lg-hor-big title-big mar-vert-0 pad-mob-hor">You’re In!</h1>
+    </mj-text>
+  </mj-column>
+</mj-section>
+<mj-section css-class="image" background-repeat="no-repeat" padding="0 0 43px 0" background-color="#FFFFFF">
+</mj-section>
+<mj-section padding="0px" background-color="#FFFFFF">
+      <mj-column>
+        <mj-carousel>
+          <mj-carousel-image src="https://www.mailjet.com/wp-content/uploads/2016/11/ecommerce-guide.jpg" />
+          <mj-carousel-image src="https://www.mailjet.com/wp-content/uploads/2016/09/3@1x.png" />
+          <mj-carousel-image src="https://www.mailjet.com/wp-content/uploads/2016/09/1@1x.png" />
+        </mj-carousel>
+      </mj-column>
+  <!-- <mj-column>
+    <mj-image padding="0px" href={{festival_url}} src="https://res.cloudinary.com/festivalpass/image/upload/v1582146216/tffdgjb3qzchufo6ofob.png"></mj-image>
+  </mj-column> -->
+</mj-section>
+<mj-section background-color="#FFFFFF" background-url="https://res.cloudinary.com/festivalpass/image/upload/v1566310198/Email/Backgrounds/bg-6_uhtnwh.png" background-repeat="no-repeat" align="center" padding="0">
+  <mj-column padding="10px 0 80px 0">
+  <mj-text align="center" padding="27px 0 10px 0" >
+      <p class="text pad pad-mob-hor"> Your pass to the best festivals, events, and live entertainment has arrived!</p>
+  </mj-text>
+    <mj-text align="center" padding="0px 0 17px 0" >
+      <p class="text pad pad-mob-hor"> Enjoy free concerts across the country from California to New York all the way to New Orleans and Miami and more! </p>
+  </mj-text>
+    <mj-button href="https://festivalpass.com/?inbound=O6PE2Z5er4t1Ue97ZDaQg"  padding="0px" font-family="Sofia Regular, Open Sans, sans-serif;" font-size="18px" font-weight="700" font-style="normal" line-height="normal" letter-spacing="normal" font-stretch="normal" background-color="#FA2069" color="#FFFFFF" border-radius="16px" inner-padding="14px 18px 15px 18px">
+        Browse Events
+    </mj-button>
+    <mj-text align="center" padding="27px 0 17px 0" >
+      <p class="text-medium pad pad-mob-hor"> April, check out these upcoming events in New York.  </p>    
+    </mj-text>
+    <mj-text align="left" padding="15px 0 0px 0" >
+        <p class="text pad pad-mob-hor">- Holi in the City: Festival of Colors (Sold Out Every Year) </p>
+    </mj-text>
+    <mj-text align="left" padding="15px 0 0px 0" >
+        <p class="text pad pad-mob-hor">- Hot 97 Presents: Dope 90s VS Hot 2000s Party </p>
+    </mj-text>
+    <mj-text align="left" padding="15px 0 0px 0" >
+        <p class="text pad pad-mob-hor">- “Art on Paper” Gallery Walk  </p>
+    </mj-text>
+    <mj-text align="left" padding="15px 0 0px 0" >
+        <p class="text pad pad-mob-hor">- Whiskey, Spirits & Wine Festival  </p>
+    </mj-text>
+
+    <mj-divider width="80%" border-width="1px" border-style="solid" border-color="#D8D8D8"/>
+    <mj-text align="left" padding="0 0 17px 0" >
+        <p class="text pad pad-mob-hor">The list is <span style="font-family: Sofia Bold, Open Sans, sans-serif; font-weight: bold;"><strong>NEVERENDING</strong></span> in our website…If you haven’t signed up for your plan yet, don’t wait. Starting as low as $9!  All the way to our best plan of $85. Your adventure awaits!.</p>
+    </mj-text>
+        <mj-button href="https://festivalpass.com/?inbound=O6PE2Z5er4t1Ue97ZDaQg"  padding="0px" font-family="Sofia Regular, Open Sans, sans-serif;" font-size="18px" font-weight="700" font-style="normal" line-height="normal" letter-spacing="normal" font-stretch="normal" background-color="#FA2069" color="#FFFFFF" border-radius="16px" inner-padding="14px 30px 15px 30px">
+       Let's go!
+    </mj-button>
+  </mj-column>
+</mj-section>

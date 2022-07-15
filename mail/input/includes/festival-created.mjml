@@ -1,0 +1,37 @@
+<mj-section css-class="image" background-url="https://res.cloudinary.com/festivalpass/image/upload/v1566310014/Email/Backgrounds/tranactional-top_w1bduy.png" background-repeat="no-repeat" padding="0" background-color="#FFFFFF">
+  <mj-column>
+    <mj-text align="center" padding="66px 0 0px 0" >
+      <h1 class="pad-lg-hor-big title-big mar-vert-0 pad-mob-hor">Hi {{festival_name}}!</h1>
+    </mj-text>
+  </mj-column>
+</mj-section>
+<mj-section css-class="image" background-repeat="no-repeat" padding="0 0 43px 0" background-color="#FFFFFF">
+  <mj-column>
+    <mj-text align="center" padding="0" >
+      <h1 class="pad-lg-hor-big title-big mar-vert-0 pad-mob-hor">Your event has been listed on festivalPass!</h1>
+      <p class="text pad pad-mob-hor pad-mob-hor" >The world's first festival subscription service across music, film, food & wine, tech & innovation and more. Enjoy hundreds of festivals locally and globally for one monthly fee</p>
+      </mj-text>
+  </mj-column>
+</mj-section>
+<mj-section padding="0px">
+  <mj-column>
+    <mj-image padding="0px" href={{festival_url}} src={{festival_photo_url}}></mj-image>
+  </mj-column>
+</mj-section>
+<mj-section background-color="#FFFFFF" background-url="https://res.cloudinary.com/festivalpass/image/upload/v1566310198/Email/Backgrounds/bg-6_uhtnwh.png" background-repeat="no-repeat" align="center" padding="0">
+  <mj-column padding="28px 0 80px 0">
+  <mj-text align="center" padding="27px 0 17px 0" >
+      <p class="text pad pad-mob-hor"> Claim Your Festival Now </p>
+      <p class="text pad pad-mob-hor"> Keep your content updated the way you want it represented - Upload your images - Join festivalPass as a partner and allow our members to attend your festival with their festivalPass.</p>
+  </mj-text>
+    <mj-text align="center" padding="27px 0 17px 0" >
+      <p class="text pad pad-mob-hor"> Join us November 20-22 in Santa Barabara @ FestForums.</p>
+    </mj-text>
+    <mj-button href={{festival_url}}  padding="0px" font-family="Sofia Regular, Open Sans, sans-serif;" font-size="18px" font-weight="700" font-style="normal" line-height="normal" letter-spacing="normal" font-stretch="normal" background-color="#FA2069" color="#FFFFFF" border-radius="16px" inner-padding="14px 18px 15px 18px">Claim your Festival
+    </mj-button>
+  </mj-column>
+</mj-section>
+
+<mj-section background-color="#FestivalFFFFF" width="80%" align="center" padding="0">
+ <mj-image padding="0px" css-class="ad-image"  src="https://res.cloudinary.com/festivalpass/image/upload/v1571237285/Email/Pictures/Screen_Shot_2019-10-16_at_11.47.15_zzjsz0.png" href="http://www.festforums.com/festforums-about-sb-18"></mj-image>
+</mj-section>

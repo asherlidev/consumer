@@ -1,0 +1,15 @@
+<mj-section background-color="#FFFFFF" background-url="https://res.cloudinary.com/festivalpass/image/upload/v1566310198/Email/Backgrounds/bg-6_uhtnwh.png" background-repeat="no-repeat" align="center" padding="0">
+  <mj-column padding="80px 0">
+   <mj-image padding="0px" width="32px" src="https://res.cloudinary.com/festivalpass/image/upload/v1566405266/Email/Icons/firework_mpv04y.png"></mj-image>
+    <mj-text align="center" padding="27px 0 17px 0" >
+      <h1 class="title-big mar-vert-0">Hi Danielle</h1>
+      <p class="text pad-lg-hor-big pad-mob-hor">Your friend <strong>Nick</strong> just joined you on festivalPass using your personal referal code. You get 6 free credits and so do they - yay, we all win!</p>
+    </mj-text>
+      <mj-divider width="80%" border-width="1px" border-style="solid" border-color="#D8D8D8"/>
+    <mj-text align="center" padding="27px 0 17px 0" >
+      <p class="text pad-lg-hor-big pad-mob-hor">Invite more friends to join both of you at your favorite festivals</p>
+    </mj-text>
+    <mj-button padding="0px" font-family="Lato" font-size="18px" font-weight="700" font-style="normal" line-height="normal" letter-spacing="normal" font-stretch="normal" background-color="#FA2069" color="#FFFFFF" border-radius="16px" inner-padding="14px 18px 15px 18px">Invite friends
+    </mj-button>
+  </mj-column>
+</mj-section>

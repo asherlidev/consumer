@@ -1,0 +1,49 @@
+<mj-section
+  css-class="image"
+  background-url="https://res.cloudinary.com/festivalpass/image/upload/v1566310014/Email/Backgrounds/tranactional-top_w1bduy.png"
+  background-repeat="no-repeat"
+  padding="0"
+>
+  <mj-column padding="80px 0 0px 0">
+    <mj-image
+      padding="0px"
+      width="32px"
+      src="https://res.cloudinary.com/festivalpass/image/upload/v1566385658/Email/Icons/forgotpassword-changed_bm0825.png"
+    ></mj-image>
+  </mj-column>
+</mj-section>
+<mj-section
+  background-repeat="no-repeat"
+  padding="0"
+  background-color="#FFFFFF"
+>
+  <mj-column padding="0px 0 80px 0">
+    <mj-text align="center" padding="27px 0 0 0">
+      <h1 class="title-big mar-vert-0 pad-lg-hor-big pad-mob-hor">
+        Your password has been changed successfully!
+      </h1>
+    </mj-text>
+    <mj-text align="center" padding="17px 0 0 0">
+      <p class="text pad-lg-hor-big pad-mob-hor">
+        This is a confirmation that your password has been changed at
+        <span style="font-family: Sofia Bold, Open Sans, sans-serif;"
+          ><strong>01:30 PM CET</strong></span
+        >
+        on
+        <span style="font-family: Sofia Bold, Open Sans, sans-serif;"
+          ><strong>August 7, 2019</strong></span
+        >
+        .
+      </p>
+    </mj-text>
+    <mj-text align="center" padding=" 0">
+      <p class="text pad-lg-hor-big pad-mob-hor">
+        Didn’t change your password? Email us at
+        <span style="font-family: Sofia Bold, Open Sans, sans-serif;"
+          ><strong>support@festivalpass.com</strong></span
+        >
+        so we can look into it.
+      </p>
+    </mj-text>
+  </mj-column>
+</mj-section>

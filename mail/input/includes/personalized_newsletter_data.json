@@ -1,0 +1,41 @@
+{
+  "header_promo_title": "Weekly Recommendations Just For You!",
+  "header_promo_content": "Spend $10 now and get $200 off entire 2021 subscription",
+  "header_promo_btn_label": "Get Code Now",
+  "header_promo_btn_cta": "https://www.staging.festivalpass.com/gifting/hz2wy0DOp1EV5KL8RIiF0",
+  "view_all_cta": "https://www.staging.festivalpass.com/events",
+  "nearby_events": [
+    {
+      "name": "Movement Fest 2020",
+      "category": "Music",
+      "cover_image": "https://res.cloudinary.com/festivalpass/image/upload/v1607376872/636629576373387052_05262018_movement_d1_27_5748134162.jpg",
+      "location": "Detroit, MI",
+      "start": "Sat, Sept 19 2021",
+      "url": "https://www.staging.festivalpass.com/events/movement-fest-2020"
+    },
+    {
+      "name": "Movement Fest 2020",
+      "category": "Music",
+      "cover_image": "https://res.cloudinary.com/festivalpass/image/upload/v1607376872/636629576373387052_05262018_movement_d1_27_5748134162.jpg",
+      "location": "Detroit, MI",
+      "start": "Sat, Sept 19 2021",
+      "url": "https://www.staging.festivalpass.com/events/movement-fest-2020"
+    },
+    {
+      "name": "Movement Fest 2020",
+      "category": "Music",
+      "cover_image": "https://res.cloudinary.com/festivalpass/image/upload/v1607376872/636629576373387052_05262018_movement_d1_27_5748134162.jpg",
+      "location": "Detroit, MI",
+      "start": "Sat, Sept 19 2021",
+      "url": "https://www.staging.festivalpass.com/events/movement-fest-2020"
+    },
+    {
+      "name": "Movement Fest 2020",
+      "category": "Music",
+      "cover_image": "https://res.cloudinary.com/festivalpass/image/upload/v1607376872/636629576373387052_05262018_movement_d1_27_5748134162.jpg",
+      "location": "Detroit, MI",
+      "start": "Sat, Sept 19 2021",
+      "url": "https://www.staging.festivalpass.com/events/movement-fest-2020"
+    }
+  ]
+}

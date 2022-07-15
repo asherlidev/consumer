@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "FestivalPass",
+    "slug": "festival-pass",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "scheme": "festival-pass",
+    "ios": {
+      "infoPlist": {
+        "LSApplicationQueriesSchemes": [
+          "message",
+          "readdle-spark",
+          "airmail",
+          "ms-outlook",
+          "googlegmail",
+          "inbox-gmail",
+          "ymail",
+          "superhuman",
+          "yandexmail"
+        ]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.festivalpass"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["sentry-expo"],
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "produx-llc-5d",
+            "project": "react-native",
+            "authToken": "03af2de5e2874f81afe0e46578f6b999cd1529ff84b649dbbed23beeab973f69"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+export { default as BusIcon } from './bus-icon.svg';
+export { default as CarIcon } from './car-icon.svg';
+export { default as CreditsIcon } from './creditsIcon.svg';
+export { default as FoodIcon } from './food-icon.svg';
+export { default as LocationIcon } from './locationIcon.svg';
+export { default as MeetIcon } from './meet-icon.svg';
+export { default as PricesIcon } from './prices-icon.svg';
+export { default as RestroomIcon } from './restroom-icon.svg';
+export { default as ShareIcon } from './shareIcon.svg';
+export { default as StarIcon } from './star.svg';
+export { default as TicketIcon } from './ticketIcon.svg';
+export { default as TshirtIcon } from './tsirt-icon.svg';
+export { default as CalendarIcon } from './calendarIcon.svg';
+export { default as VipIcon } from './vip-icon.svg';

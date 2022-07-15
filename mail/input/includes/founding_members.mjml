@@ -1,0 +1,17 @@
+<mj-hero
+  padding=""
+  height="537px"
+  background-color="#091D2C">
+  <mj-column>
+    <mj-text align="left" padding="67px 0px 0px 0px" >
+      <h2 class="text-big-white pad-mob-hor pad-lg-hor-sm mar-vert-0">How to become a Founding Member:</h2>
+    </mj-text>
+    <mj-text align="left" padding="0" >
+      <p class="text-white pad-mob-hor pad-lg-hor-sm">Ready to be a part of something amazing? For a very limited time, we are offering <span style="color: #FA2069; text-decoration: underline; font-weight: bold"><strong>Founding Member</strong></span> memberships for festival goers that support us early and help us define the future of experiencing live events.</p>
+      <p class="text-white pad-mob-hor pad-lg-hor-sm">For $99 today, you will secure you spot as an exclusive festivalPass <span style="color: #FA2069; text-decoration: underline; font-weight: bold"><strong>Founding Member</strong></span>. This will pay for your first month of membership, put 60 credits to attend festivals in your account and you will be one of only a few thousand members to be Founding Members for life. You second month subscription will not be billed until 30 days after the festivalPass mobile app officially launches in Fall 2019. Founding members will have access to special invite only events, preferred access to high demand events, unique content and other exciting benefits. <span style="color: #FA2069; text-decoration: underline; font-weight: bold"><strong>Became a Founding Member Now!</strong></span></p>
+      <p class="text-white pad-mob-hor pad-lg-hor-sm">Festively,</p>
+      <p class="text-white pad-mob-hor pad-lg-hor-sm">The festivalPass Team</p>
+    </mj-text>
+  </mj-column>
+</mj-hero>
+

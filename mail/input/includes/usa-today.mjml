@@ -1,0 +1,22 @@
+<mj-section css-class="image" background-color="#FFFFFF">
+ <mj-column padding="0px 25px" >
+    <mj-image href= "https://festivalpass.com/festivals/la-usa-today-wine-and-food-festival" src="https://res.cloudinary.com/festivalpass/image/upload/v1573163478/wineandfood_gbwomc.png"></mj-image>
+  </mj-column>
+</mj-section>
+ <mj-section background-repeat="no-repeat" padding="0" background-color="#FFFFFF">
+  <mj-column padding="25px 0px">
+    <mj-text align="center" padding="0" font-family="Sofia Black, Open Sans, sans-serif;" >
+      <h1 class="title-big mar-vert-0 pad-sm pad-mob-hor">Free complimentary ticket to USA Today Wine and Food Festival for <span style="font-family: Sofia Bold, Open Sans, sans-serif; font-weight: bold; color: #FA1F69"><strong>New Members</strong></span> </h1>
+    </mj-text>
+    <mj-text align="center" padding="17px 0px 0px 0px" font-family="Sofia Regular, Open Sans, sans-serif;">
+      <p class="text mar-vert-0 pad-mob-hor pad-sm " style="opacity: 0.7;">
+        Become a New Member right now and get into this event for FREE! Offer value:
+      </p>
+      <h1 class="title-big mar-vert-0 pad-lg-hor-big pad-mob-hor" style="font-family: Sofia Bold, Open Sans, sans-serif; font-weight: bold; text-decoration: line-through;">$82</h1>
+      <h1 class="title-big mar-vert-0 pad-lg-hor-big pad-mob-hor" style="font-family: Sofia Bold, Open Sans, sans-serif; font-weight: bold; color: #6296FB;">FREE</h1>
+    </mj-text>
+    <mj-button href="https://www.festivalpass.com/register" padding="32px 0px 0px 0px" font-family="Sofia Regular, OpOpen Sans, sans-serif;" font-size="18px" font-weight="700" font-style="normal" line-height="normal" letter-spacing="normal" font-stretch="normal" background-color="#FA2069" color="#FFFFFF" border-radius="16px" inner-padding="14px 60px 14px 60px">Sign up
+    </mj-button>
+  </mj-column>
+</mj-section>
+

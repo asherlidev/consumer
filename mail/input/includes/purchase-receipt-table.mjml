@@ -1,0 +1,47 @@
+<mj-section background-color="#FFFFFF">
+  <mj-column align="center">
+    <mj-divider width="80%" border-width="1px" border-style="solid" border-color="#D8D8D8"/>
+    <mj-table width="70%" align="center" padding="0" css-class="table">
+      <tr>
+        <td class="text" style="text-align: left">
+          <p><strong>Reference Code</strong></td></p>
+        <td>
+        <td class="text" style="text-align: right">
+          <p>LJIQNSAS</p>
+        <td>
+      <tr>
+        <td class="text" style="text-align: left">
+          <p><strong>Payment Method</strong></td></p>
+        <td>
+        <td class="text" style="text-align: right">
+          <p>MasterCard **** 9875</p>
+        <td>
+      </tr>
+      <tr>
+        <td class="text" style="text-align: left">
+          <p><strong>Date</strong></td></p>
+        <td>
+        <td class="text" style="text-align: right">
+          <p>August 7, 2019</p>
+        <td>
+      </tr>
+      <tr>
+        <td class="text" style="text-align: left">
+          <p><strong>Amount</strong></td></p>
+        <td>
+        <td class="text" style="text-align: right">
+          <p>68 credits</p>
+        <td>
+      </tr>
+      <tr>
+        <td class="text" style="text-align: left">
+          <p><strong>Total</strong></td></p>
+        <td>
+        <td class="text" style="text-align: right">
+          <p>$49.99</p>
+        <td>
+      </tr>
+    </mj-table>
+    <mj-divider width="80%" border-width="1px" border-style="solid" border-color="#D8D8D8"/>
+  </mj-column>
+</mj-section>
